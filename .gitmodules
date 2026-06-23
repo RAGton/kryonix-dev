@@ -1,0 +1,24 @@
+[submodule "repos/kryonix"]
+	path = repos/kryonix
+	url = https://github.com/RAGton/kryonix.git
+[submodule "repos/kryonixos"]
+	path = repos/kryonixos
+	url = https://github.com/RAGton/Kryonixos.git
+[submodule "repos/kryonix-installer"]
+	path = repos/kryonix-installer
+	url = https://github.com/RAGton/kryonix-installer.git
+[submodule "repos/kryonix-home"]
+	path = repos/kryonix-home
+	url = https://github.com/RAGton/KRYONIX-HOME.git
+[submodule "repos/kryonix-aura"]
+	path = repos/kryonix-aura
+	url = https://github.com/RAGton/kryonix-aura.git
+[submodule "repos/kryonix-assets"]
+	path = repos/kryonix-assets
+	url = https://github.com/RAGton/kryonix-assets.git
+[submodule "repos/kryonix-vault"]
+	path = repos/kryonix-vault
+	url = https://github.com/RAGton/kryonix-vault.git
+[submodule "repos/kryonix-brain-lightrag"]
+	path = repos/kryonix-brain-lightrag
+	url = https://github.com/RAGEnterprise/kryonix-brain-lightrag.git
