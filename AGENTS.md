@@ -100,6 +100,188 @@ cargo clippy -- -D warnings
 
 ---
 
+## Uso obrigatório do Vault
+
+O repositório `repos/kryonix-vault` é a camada oficial de **memória persistente, contexto operacional e rastreabilidade** do ecossistema Kryonix.
+
+Todo agente que trabalha neste workspace deve usar o Vault para melhorar a qualidade das entregas, evitar retrabalho, preservar decisões e impedir "vibe coding" sem contexto.
+
+### Regra principal
+
+- **Antes** de executar mudanças relevantes, o agente deve **consultar** o Vault.
+- **Depois** de executar mudanças relevantes, o agente deve **registrar** no Vault o que foi feito, por quê, quais validações foram executadas e quais pendências ficaram.
+
+### O Vault deve ser usado para
+
+- registrar decisões técnicas;
+- guardar contexto de arquitetura;
+- documentar migrações entre repositórios;
+- registrar auditorias de workspace;
+- registrar validações e evidências;
+- preservar plano, execução e resultado de tarefas importantes;
+- melhorar continuidade entre sessões de Aura, Codex, Claude e outros agentes.
+
+### O Vault não deve conter
+
+- secrets;
+- tokens;
+- API keys reais;
+- `.env` real;
+- cache de LLM;
+- `.claude` cache pesado;
+- `__pycache__`;
+- `.venv`;
+- builds;
+- artefatos temporários;
+- bancos/runtime;
+- dados de `/var/lib/kryonix`.
+
+### Protocolo obrigatório antes de tarefas relevantes
+
+Antes de alterar código, arquitetura, módulos, profiles, installer, Brain, Aura ou fluxo multi-repo, o agente deve consultar:
+
+```bash
+repos/kryonix-vault/AGENTS.md
+repos/kryonix-vault/VAULT_INDEX.md
+repos/kryonix-vault/02-Areas/Kryonix/
+repos/kryonix-vault/09-Logs/
+```
+
+Também deve procurar registros anteriores relacionados à tarefa:
+
+```bash
+cd repos/kryonix-vault
+rg -n "<tema-da-tarefa>" 01-MOCs 02-Areas 03-Projetos 09-Logs AGENTS.md VAULT_INDEX.md
+```
+
+### Protocolo obrigatório depois de tarefas relevantes
+
+Ao concluir uma tarefa relevante, criar ou atualizar uma nota no Vault com:
+
+```md
+# <Título da tarefa>
+
+Data: YYYY-MM-DD
+Agente: Aura/Codex/Claude/etc
+Repos afetados:
+
+- repo 1
+- repo 2
+
+## Objetivo
+
+## Contexto consultado
+
+## Mudanças realizadas
+
+## Commits e branches
+
+## Validações executadas
+
+## Evidências
+
+## Pendências
+
+## Próximo passo recomendado
+```
+
+Local recomendado:
+
+```txt
+repos/kryonix-vault/09-Logs/Kryonix/
+```
+
+Para decisões arquiteturais duradouras, também atualizar ou criar notas em:
+
+```txt
+repos/kryonix-vault/02-Areas/Kryonix/canonical/
+```
+
+### Fluxo correto ao modificar o Vault
+
+O Vault é um submodule. Portanto, alterações nele exigem dois commits:
+
+1. Commit no próprio Vault:
+
+```bash
+cd repos/kryonix-vault
+git add <arquivos>
+git commit -m "docs(vault): <descrição>"
+git push origin main
+```
+
+2. Atualização do pointer no `kryonix-dev`:
+
+```bash
+cd ../..
+git add repos/kryonix-vault
+git commit -m "chore(dev): update vault submodule pointer"
+git push origin main
+```
+
+### Regra de qualidade para agentes
+
+Nenhuma entrega relevante deve terminar sem:
+
+- status final dos repos afetados;
+- lista de arquivos alterados;
+- commits gerados;
+- validações executadas;
+- pendências explícitas;
+- registro no Vault quando houver decisão, migração, arquitetura ou mudança multi-repo.
+
+Se a tarefa não tiver registro no Vault, ela não está totalmente concluída.
+
+---
+
+## Política anti-vibe coding
+
+O agente deve evitar alterações baseadas apenas em intuição.
+
+Antes de modificar arquivos importantes, deve:
+
+1. identificar o repo correto;
+2. consultar o contexto no Vault;
+3. verificar o estado Git;
+4. listar arquivos que serão alterados;
+5. explicar o plano;
+6. executar mudanças pequenas e reversíveis;
+7. validar;
+8. commitar com mensagem clara;
+9. atualizar o submodule pointer no `kryonix-dev`, quando aplicável;
+10. registrar a decisão no Vault quando a tarefa for relevante.
+
+### Comandos proibidos sem autorização explícita
+
+```bash
+git add .
+git reset --hard
+git clean -fdx
+git push --force
+git branch -D
+rm -rf
+nix flake update
+nixos-rebuild switch
+kryonix switch
+```
+
+### Comandos preferidos
+
+```bash
+git status -sb
+git diff --stat
+git diff -- <arquivo>
+git add <arquivo-específico>
+git commit -m "tipo(escopo): mensagem"
+git push origin main
+```
+
+### Regra de ouro
+
+O agente deve produzir entregas auditáveis, não apenas mudanças que "parecem funcionar".
+
+---
+
 ## Onde encontrar contexto de IA
 
 | Conteúdo | Caminho |
