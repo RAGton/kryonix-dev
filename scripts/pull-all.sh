@@ -5,6 +5,6 @@ DIR="$(cd "$(dirname "$0")/.." && pwd)"
 for repo in "$DIR"/repos/*/; do
   name=$(basename "$repo")
   echo "=== $name ==="
-  git -C "$repo" pull --ff-only 2>&1 || echo "FAIL: $name"
+  git -C "$repo" pull --ff-only --no-rebase 2>&1 || echo "FAIL: $name"
   echo ""
 done
