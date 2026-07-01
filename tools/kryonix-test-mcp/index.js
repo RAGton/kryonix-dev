@@ -25,8 +25,44 @@ const VALID_PROFILES = [
   "python",
   "rust",
   "vault",
-  "mcp",
 ];
+
+const REPORT_ROOT = path.join(VAULT_PATH, "99-Logs", "test-runs");
+
+async function assertReportPathAllowed(reportPath) {
+  const resolvedRoot = await fs.realpath(REPORT_ROOT);
+  const resolvedPath = await fs.realpath(reportPath);
+
+  if (
+    resolvedPath !== resolvedRoot &&
+    !resolvedPath.startsWith(resolvedRoot + path.sep)
+  ) {
+    throw new Error("Invalid path. Only reports under vault/99-Logs/test-runs are allowed.");
+  }
+
+  if (!resolvedPath.endsWith(".md")) {
+    throw new Error("Invalid report file. Only markdown reports are allowed.");
+  }
+
+  return resolvedPath;
+}
+
+function sanitizeSummary(summary) {
+  if (typeof summary !== "string") {
+    throw new Error("summary must be a string");
+  }
+
+  if (summary.length > 4000) {
+    throw new Error("summary too large; max 4000 chars");
+  }
+
+  return summary
+    .replace(/api[_-]?key[=: ]+\S+/gi, "api_key=<REDACTED>")
+    .replace(/token[=: ]+\S+/gi, "token=<REDACTED>")
+    .replace(/secret[=: ]+\S+/gi, "secret=<REDACTED>")
+    .replace(/password[=: ]+\S+/gi, "password=<REDACTED>")
+    .replace(/authorization:\s*bearer\s+\S+/gi, "authorization: bearer <REDACTED>");
+}
 
 const server = new Server(
   {
@@ -215,11 +251,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }
       case "get_last_test_report": {
         const { report_path } = request.params.arguments;
-        if (!report_path.startsWith(VAULT_PATH)) {
-           throw new Error("Invalid path. Only reading from the vault test runs is allowed.");
-        }
+        const safePath = await assertReportPathAllowed(report_path);
         
-        const content = await fs.readFile(report_path, "utf-8");
+        const content = await fs.readFile(safePath, "utf-8");
         const lines = content.split('\n');
         
         let out = content;
@@ -233,11 +267,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }
       case "get_last_failures": {
         const { report_path } = request.params.arguments;
-        if (!report_path.startsWith(VAULT_PATH)) {
-           throw new Error("Invalid path. Only reading from the vault test runs is allowed.");
-        }
+        const safePath = await assertReportPathAllowed(report_path);
         
-        const content = await fs.readFile(report_path, "utf-8");
+        const content = await fs.readFile(safePath, "utf-8");
         
         // Very basic extraction of failed blocks
         // The script outputs:
@@ -276,12 +308,11 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }
       case "write_test_summary_to_vault": {
         const { summary, report_path } = request.params.arguments;
-        if (!report_path.startsWith(VAULT_PATH)) {
-           throw new Error("Invalid path. Only writing to the vault test runs is allowed.");
-        }
+        const safePath = await assertReportPathAllowed(report_path);
         
-        const toAppend = `\n\n## Agent Summary\n\n${summary}\n`;
-        await fs.appendFile(report_path, toAppend, "utf-8");
+        const safeSummary = sanitizeSummary(summary);
+        const toAppend = `\n\n## Agent Summary\n\n${safeSummary}\n`;
+        await fs.appendFile(safePath, toAppend, "utf-8");
         
         return {
           content: [{ type: "text", text: "Successfully appended summary to report." }],
