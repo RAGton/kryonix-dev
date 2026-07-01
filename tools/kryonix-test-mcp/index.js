@@ -57,11 +57,8 @@ function sanitizeSummary(summary) {
   }
 
   return summary
-    .replace(/api[_-]?key[=: ]+\S+/gi, "api_key=<REDACTED>")
-    .replace(/token[=: ]+\S+/gi, "token=<REDACTED>")
-    .replace(/secret[=: ]+\S+/gi, "secret=<REDACTED>")
-    .replace(/password[=: ]+\S+/gi, "password=<REDACTED>")
-    .replace(/authorization:\s*bearer\s+\S+/gi, "authorization: bearer <REDACTED>");
+    .replace(/\b(api[_-]?key|token|secret|password|passwd)\b\s*[:=]\s*\S+/gi, "$1=<REDACTED>")
+    .replace(/\b(authorization)\b\s*:\s*bearer\s+[A-Za-z0-9._~+/=-]+/gi, "$1: bearer <REDACTED>");
 }
 
 const server = new Server(

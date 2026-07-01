@@ -36,11 +36,8 @@ run_cmd() {
 
 sanitize_report() {
   sed -i -E \
-    -e 's/(api[_-]?key[=: ]+)[^[:space:]]+/\1<REDACTED>/Ig' \
-    -e 's/(token[=: ]+)[^[:space:]]+/\1<REDACTED>/Ig' \
-    -e 's/(secret[=: ]+)[^[:space:]]+/\1<REDACTED>/Ig' \
-    -e 's/(password[=: ]+)[^[:space:]]+/\1<REDACTED>/Ig' \
-    -e 's/(authorization: bearer )[A-Za-z0-9._~+\/=-]+/\1<REDACTED>/Ig' \
+    -e 's/\b(api[_-]?key|token|secret|password|passwd)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1=<REDACTED>/Ig' \
+    -e 's/\b(authorization)\b[[:space:]]*:[[:space:]]*bearer[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1: bearer <REDACTED>/Ig' \
     "$REPORT"
 }
 
