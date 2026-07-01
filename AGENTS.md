@@ -300,3 +300,25 @@ O agente deve produzir entregas auditáveis, não apenas mudanças que "parecem 
 - Downstream: `repos/kryonixos`
 - Installer: `repos/kryonix-installer`
 - Vault (Obsidian): `repos/kryonix-vault`
+---
+
+## Uso do MCP de Testes
+
+Use o MCP `kryonix-test` para rodar testes locais do Kryonix.
+
+**Regras:**
+1. Antes de testar, chame `list_test_profiles`.
+2. Para testes locais, use `run_test_profile`.
+3. Não rode comandos shell diretos se existir profile MCP equivalente.
+4. Leia apenas o JSON resumido retornado.
+5. Só chame `get_last_test_report` quando houver falha.
+6. Só chame `get_last_failures` para diagnóstico compacto.
+7. Não leia logs completos sem necessidade.
+8. Nunca peça secrets.
+9. Nunca tente rodar comando arbitrário fora da allowlist.
+10. Para `nix-full`, peça confirmação humana e use somente se `KRYONIX_ALLOW_HEAVY=1` estiver configurado no ambiente.
+11. Após alterações no installer, rode `installer-critical`.
+12. Após mudanças no Vault, rode `vault`.
+13. Após mudanças Python/Brain, rode `python`.
+14. Após mudanças Rust/Home, rode `rust`.
+15. Após mudanças Nix, rode `nix-fast`; `nix-full` só com aprovação.
