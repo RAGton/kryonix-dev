@@ -20,6 +20,7 @@ const VAULT_PATH = path.join(KDEV, "repos", "kryonix-vault");
 const VALID_PROFILES = [
   "smoke",
   "installer-critical",
+  "installer-e2e",
   "nix-fast",
   "nix-full",
   "python",

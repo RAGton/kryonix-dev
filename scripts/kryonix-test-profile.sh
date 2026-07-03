@@ -60,6 +60,10 @@ case "$PROFILE" in
     run_cmd "installer node test" 180 bash -lc "cd '$KDEV/repos/kryonix-installer/ui' && npm run test"
     ;;
 
+  installer-e2e)
+    run_cmd "installer e2e playwright" 300 bash -lc "cd '$KDEV/repos/kryonix-installer/ui' && npx playwright test"
+    ;;
+
   nix-fast)
     run_cmd "flake show kryonix" 300 bash -lc "cd '$KDEV/repos/kryonix' && nix flake show --all-systems"
     ;;
