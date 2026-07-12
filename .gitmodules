@@ -22,3 +22,11 @@
 [submodule "repos/kryonix-brain-lightrag"]
 	path = repos/kryonix-brain-lightrag
 	url = https://github.com/RAGEnterprise/kryonix-brain-lightrag.git
+[submodule "repos/ragos"]
+	path = repos/ragos
+	url = https://github.com/RAGEnterprise/ragos.git
+	branch = main
+[submodule "repos/ragos-installer"]
+	path = repos/ragos-installer
+	url = https://github.com/RAGEnterprise/ragos-installer.git
+	branch = main

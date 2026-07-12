@@ -24,7 +24,9 @@ kryonix-dev/
     ├── kryonix-home/      ← organizador de home directory (Rust)
     ├── kryonix-aura/      ← agente Aura e automação
     ├── kryonix-assets/    ← wallpapers, temas SDDM, branding
-    └── kryonix-vault/     ← Obsidian Vault (documentação, ADRs, logs)
+    ├── kryonix-vault/     ← Obsidian Vault (documentação, ADRs, logs)
+    ├── ragos/             ← plataforma diskless NixOS (servidor, cliente, ragc)
+    └── ragos-installer/   ← instalador oficial do ecossistema RAGOS
 ```
 
 ---
@@ -41,6 +43,8 @@ kryonix-dev/
 | `repos/kryonix-aura` | Agente Aura | Scripts de automação e agente |
 | `repos/kryonix-assets` | Branding | Wallpapers, temas SDDM, avatars |
 | `repos/kryonix-vault` | Memória | Notas Obsidian, MOCs, ADRs, logs, documentação |
+| `repos/ragos` | Plataforma RAGOS | Servidor e clientes diskless NixOS, inventário, PXE e `ragc` |
+| `repos/ragos-installer` | Instalador RAGOS | ISO, backend, UI e pipeline de instalação do servidor RAGOS |
 
 ---
 

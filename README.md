@@ -14,6 +14,8 @@ Desenvolvimento da distro Kryonix. Workspace multi-repo oficial.
 | **kryonix-aura** | `repos/kryonix-aura` | Agente Aura e camada de automação |
 | **kryonix-assets** | `repos/kryonix-assets` | Wallpapers, temas SDDM, branding |
 | **kryonix-vault** | `repos/kryonix-vault` | Obsidian Vault com documentação operacional |
+| **ragos** | `repos/ragos` | Plataforma diskless NixOS: servidor, clientes, inventário, PXE e `ragc` |
+| **ragos-installer** | `repos/ragos-installer` | Instalador oficial do servidor RAGOS |
 
 ## Uso
 
