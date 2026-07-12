@@ -1,0 +1,3282 @@
+{
+  "kryonix-brain-lightrag/crates/kryonix-cag/src/main.rs": {
+    "mtime": 1782178883.4184113,
+    "ast_hash": "acd1813df568990bf82c857fa58273dd",
+    "semantic_hash": "acd1813df568990bf82c857fa58273dd"
+  },
+  "kryonix-brain-lightrag/crates/kryonix-cag/src/manifest.rs": {
+    "mtime": 1782178883.418492,
+    "ast_hash": "0ac85a96473d9ca3c9f87c525331469f",
+    "semantic_hash": "0ac85a96473d9ca3c9f87c525331469f"
+  },
+  "kryonix-brain-lightrag/crates/kryonix-cag/src/routing.rs": {
+    "mtime": 1782178883.4185333,
+    "ast_hash": "79f59ae66ea2eaa6d53406fb7b744a9f",
+    "semantic_hash": "79f59ae66ea2eaa6d53406fb7b744a9f"
+  },
+  "kryonix-brain-lightrag/crates/kryonix-cag/src/scanner.rs": {
+    "mtime": 1782178883.4185982,
+    "ast_hash": "1566778575a2e1ada22309c1dd946c36",
+    "semantic_hash": "1566778575a2e1ada22309c1dd946c36"
+  },
+  "kryonix-brain-lightrag/crates/kryonix-cag/src/security.rs": {
+    "mtime": 1782178883.4186864,
+    "ast_hash": "c3006e78cbb079491b5509f0a0b9a002",
+    "semantic_hash": "c3006e78cbb079491b5509f0a0b9a002"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/__init__.py": {
+    "mtime": 1782178883.4186864,
+    "ast_hash": "9b09aac381c34ddc6a18981da7c5da9c",
+    "semantic_hash": "9b09aac381c34ddc6a18981da7c5da9c"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/api.py": {
+    "mtime": 1782178883.4187837,
+    "ast_hash": "7fdfcdb18fd026b11abb45f1f4ed3f25",
+    "semantic_hash": "7fdfcdb18fd026b11abb45f1f4ed3f25"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/autopilot.py": {
+    "mtime": 1782178883.4188876,
+    "ast_hash": "79bee1181248ee15c4f55789a3814860",
+    "semantic_hash": "79bee1181248ee15c4f55789a3814860"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/autopilot_cag.py": {
+    "mtime": 1782178883.4189653,
+    "ast_hash": "b3ec4d8c20d3869dd8fd2d996b44fee8",
+    "semantic_hash": "b3ec4d8c20d3869dd8fd2d996b44fee8"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/autopilot_graph.py": {
+    "mtime": 1782178883.4190485,
+    "ast_hash": "82120edd38bd9b8af9760a7752c318c0",
+    "semantic_hash": "82120edd38bd9b8af9760a7752c318c0"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/autopilot_lightrag.py": {
+    "mtime": 1782178883.4191003,
+    "ast_hash": "ad461245affd147ed7016f77e41085e0",
+    "semantic_hash": "ad461245affd147ed7016f77e41085e0"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/autopilot_rag.py": {
+    "mtime": 1782178883.4191003,
+    "ast_hash": "88a41eab2d25005681c2da78d40a300c",
+    "semantic_hash": "88a41eab2d25005681c2da78d40a300c"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/cag.py": {
+    "mtime": 1782178883.4191794,
+    "ast_hash": "8a2a596081725ace6888ece45ac02820",
+    "semantic_hash": "8a2a596081725ace6888ece45ac02820"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/cli.py": {
+    "mtime": 1782178883.4194353,
+    "ast_hash": "f12575d59279e43827f7e0ab2a83b93b",
+    "semantic_hash": "f12575d59279e43827f7e0ab2a83b93b"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/config.py": {
+    "mtime": 1782178883.4194973,
+    "ast_hash": "7e0d851c4eba150ee67a71648f4b1bb6",
+    "semantic_hash": "7e0d851c4eba150ee67a71648f4b1bb6"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/graph_control.py": {
+    "mtime": 1782178883.4195733,
+    "ast_hash": "24994f51985553bfaaed570948461b7e",
+    "semantic_hash": "24994f51985553bfaaed570948461b7e"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/graph_utils.py": {
+    "mtime": 1782178883.4196794,
+    "ast_hash": "ed7db6f49bbdbba29aa887ad407565c3",
+    "semantic_hash": "ed7db6f49bbdbba29aa887ad407565c3"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/index.py": {
+    "mtime": 1782178883.4198198,
+    "ast_hash": "4f4d83fc9c5324defafb2b9faa140c01",
+    "semantic_hash": "4f4d83fc9c5324defafb2b9faa140c01"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/llm.py": {
+    "mtime": 1782178883.4198847,
+    "ast_hash": "0d2629d8a504410d73b080a9ec8b8424",
+    "semantic_hash": "0d2629d8a504410d73b080a9ec8b8424"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/memory_policy.py": {
+    "mtime": 1782178883.419944,
+    "ast_hash": "665ca6774e48261bf68e4c8a6360efec",
+    "semantic_hash": "665ca6774e48261bf68e4c8a6360efec"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/obsidian_cli.py": {
+    "mtime": 1782178883.4199984,
+    "ast_hash": "037339bded5aea9ed0a84d33c56057f8",
+    "semantic_hash": "037339bded5aea9ed0a84d33c56057f8"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/query_utils.py": {
+    "mtime": 1782178883.4199984,
+    "ast_hash": "3abfffdc902d0f773bcd934ece2fe514",
+    "semantic_hash": "3abfffdc902d0f773bcd934ece2fe514"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/rag.py": {
+    "mtime": 1782178883.4201765,
+    "ast_hash": "bf129a3144012bab823c7f36bded5a4d",
+    "semantic_hash": "bf129a3144012bab823c7f36bded5a4d"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/routing.py": {
+    "mtime": 1782178883.4202383,
+    "ast_hash": "51d5a1c57449ff2a36b59a41e001e47d",
+    "semantic_hash": "51d5a1c57449ff2a36b59a41e001e47d"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/server.py": {
+    "mtime": 1782178883.4203074,
+    "ast_hash": "35e53207613fe9f6e64bad1df882976b",
+    "semantic_hash": "35e53207613fe9f6e64bad1df882976b"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/to_obsidian.py": {
+    "mtime": 1782178883.420369,
+    "ast_hash": "92346bd198d9c62ccea5e38c551aac49",
+    "semantic_hash": "92346bd198d9c62ccea5e38c551aac49"
+  },
+  "kryonix-brain-lightrag/kryonix_brain_lightrag/utils.py": {
+    "mtime": 1782178883.4204113,
+    "ast_hash": "f89505bb7b5ff6e03fe9345354f0313e",
+    "semantic_hash": "f89505bb7b5ff6e03fe9345354f0313e"
+  },
+  "kryonix-brain-lightrag/pyproject.toml": {
+    "mtime": 1782178883.4204533,
+    "ast_hash": "32d390d010adeb00311c560974c74059",
+    "semantic_hash": "32d390d010adeb00311c560974c74059"
+  },
+  "kryonix-brain-lightrag/rust-core/src/lib.rs": {
+    "mtime": 1782178883.4205801,
+    "ast_hash": "ace0be28a5f1f38a42f64e6c3596839f",
+    "semantic_hash": "ace0be28a5f1f38a42f64e6c3596839f"
+  },
+  "kryonix-brain-lightrag/rust-core/src/main.rs": {
+    "mtime": 1782178883.4206254,
+    "ast_hash": "ff7471f43e4476b756f9c0d98efcaf43",
+    "semantic_hash": "ff7471f43e4476b756f9c0d98efcaf43"
+  },
+  "kryonix-brain-lightrag/rust-core/src/utils.rs": {
+    "mtime": 1782178883.4206905,
+    "ast_hash": "e3498d4a004a7f2cf4f5e6ce4faa29ac",
+    "semantic_hash": "e3498d4a004a7f2cf4f5e6ce4faa29ac"
+  },
+  "kryonix-brain-lightrag/rust-core/src/vault_scan.rs": {
+    "mtime": 1782178883.4207332,
+    "ast_hash": "40a56dfdbe64bf99a49c29527972d246",
+    "semantic_hash": "40a56dfdbe64bf99a49c29527972d246"
+  },
+  "kryonix-brain-lightrag/scratch/generate_mocs.py": {
+    "mtime": 1782178884.089487,
+    "ast_hash": "11a3037540908bc4080e0cbec58f845f",
+    "semantic_hash": "11a3037540908bc4080e0cbec58f845f"
+  },
+  "kryonix-brain-lightrag/scratch/inspect_entity_chunks.py": {
+    "mtime": 1782178884.0899527,
+    "ast_hash": "474b3107f989d005881af16f062d7f5e",
+    "semantic_hash": "474b3107f989d005881af16f062d7f5e"
+  },
+  "kryonix-brain-lightrag/scratch/inspect_kv_relations.py": {
+    "mtime": 1782178884.0899527,
+    "ast_hash": "87bc83deae942a35a48b8b4ec7345437",
+    "semantic_hash": "87bc83deae942a35a48b8b4ec7345437"
+  },
+  "kryonix-brain-lightrag/scratch/inspect_vdb_relations.py": {
+    "mtime": 1782178884.0899527,
+    "ast_hash": "ede1db929221c02f9873afa07a1b5233",
+    "semantic_hash": "ede1db929221c02f9873afa07a1b5233"
+  },
+  "kryonix-brain-lightrag/scratch/test_mcp_call.py": {
+    "mtime": 1782178884.0899527,
+    "ast_hash": "d516595e6a6df2498dea6aaca261b41a",
+    "semantic_hash": "d516595e6a6df2498dea6aaca261b41a"
+  },
+  "kryonix-brain-lightrag/tests/test_ask_search_contract.py": {
+    "mtime": 1782178886.2993052,
+    "ast_hash": "062c1452316465ad1e850401b5efb521",
+    "semantic_hash": "062c1452316465ad1e850401b5efb521"
+  },
+  "kryonix-brain-lightrag/tests/test_brain_context_pack.py": {
+    "mtime": 1782178886.3005488,
+    "ast_hash": "06bd6367025f10b2e1148921d5a562dc",
+    "semantic_hash": "06bd6367025f10b2e1148921d5a562dc"
+  },
+  "kryonix-brain-lightrag/tests/test_cache_language_key.py": {
+    "mtime": 1782178886.3005488,
+    "ast_hash": "1da62a823bec6772a2f5bf151567b608",
+    "semantic_hash": "1da62a823bec6772a2f5bf151567b608"
+  },
+  "kryonix-brain-lightrag/tests/test_cli_doctor.py": {
+    "mtime": 1782178886.300632,
+    "ast_hash": "e98167196868178abc824651a5acc53b",
+    "semantic_hash": "e98167196868178abc824651a5acc53b"
+  },
+  "kryonix-brain-lightrag/tests/test_config_paths.py": {
+    "mtime": 1782178886.3006957,
+    "ast_hash": "041322e8366e89821d6af755e1848d72",
+    "semantic_hash": "041322e8366e89821d6af755e1848d72"
+  },
+  "kryonix-brain-lightrag/tests/test_file_discovery_excludes.py": {
+    "mtime": 1782178886.3006957,
+    "ast_hash": "11a2e3b04a416459933257be49f16d27",
+    "semantic_hash": "11a2e3b04a416459933257be49f16d27"
+  },
+  "kryonix-brain-lightrag/tests/test_graph_integrity.py": {
+    "mtime": 1782178886.300769,
+    "ast_hash": "fe0f744a81342b46097170244633b8fb",
+    "semantic_hash": "fe0f744a81342b46097170244633b8fb"
+  },
+  "kryonix-brain-lightrag/tests/test_graph_validation.py": {
+    "mtime": 1782178886.300769,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "kryonix-brain-lightrag/tests/test_grounding_answerability.py": {
+    "mtime": 1782178886.3008492,
+    "ast_hash": "1d590f042bea0374e755fcb816397f6c",
+    "semantic_hash": "1d590f042bea0374e755fcb816397f6c"
+  },
+  "kryonix-brain-lightrag/tests/test_manifest_ids.py": {
+    "mtime": 1782178886.3009,
+    "ast_hash": "93c44cd518b1fff081dc17d20f9599cd",
+    "semantic_hash": "93c44cd518b1fff081dc17d20f9599cd"
+  },
+  "kryonix-brain-lightrag/tests/test_mcp_stdio_clean.py": {
+    "mtime": 1782178886.3009741,
+    "ast_hash": "a2b23f36eec3112627e9a27e6e2eed0a",
+    "semantic_hash": "a2b23f36eec3112627e9a27e6e2eed0a"
+  },
+  "kryonix-brain-lightrag/tests/test_mcp_tools_safe.py": {
+    "mtime": 1782178886.3009741,
+    "ast_hash": "d14320a088a684017b7f9e36d1032a0d",
+    "semantic_hash": "d14320a088a684017b7f9e36d1032a0d"
+  },
+  "kryonix-brain-lightrag/tests/test_no_cloud_imports.py": {
+    "mtime": 1782178886.3009741,
+    "ast_hash": "01ff71b6851392fce0f10dfbd20038df",
+    "semantic_hash": "01ff71b6851392fce0f10dfbd20038df"
+  },
+  "kryonix-brain-lightrag/tests/test_obsidian_path_guard.py": {
+    "mtime": 1782178886.3009741,
+    "ast_hash": "5686d27a93107cc850013e8653b5cd5c",
+    "semantic_hash": "5686d27a93107cc850013e8653b5cd5c"
+  },
+  "kryonix-brain-lightrag/tests/test_ollama_adapter_shape.py": {
+    "mtime": 1782178886.3011746,
+    "ast_hash": "21b6505e825701cd6744a54006b02044",
+    "semantic_hash": "21b6505e825701cd6744a54006b02044"
+  },
+  "kryonix-brain-lightrag/tests/test_operational_pr1_contracts.py": {
+    "mtime": 1782178886.301221,
+    "ast_hash": "fc67f0db93cab18f47528807687a9d6c",
+    "semantic_hash": "fc67f0db93cab18f47528807687a9d6c"
+  },
+  "kryonix-brain-lightrag/tests/test_ptbr_response_prompt.py": {
+    "mtime": 1782178886.3012736,
+    "ast_hash": "4e7cbafae7b63d8bd83ac8936638db6e",
+    "semantic_hash": "4e7cbafae7b63d8bd83ac8936638db6e"
+  },
+  "kryonix-brain-lightrag/tests/test_query_normalization.py": {
+    "mtime": 1782178886.301321,
+    "ast_hash": "2d59bacacb8281b792e3832b0de7f335",
+    "semantic_hash": "2d59bacacb8281b792e3832b0de7f335"
+  },
+  "kryonix-brain-lightrag/tests/test_refine_cli.py": {
+    "mtime": 1782178886.3013594,
+    "ast_hash": "c4ceac1e197baef5493cb0ce78497742",
+    "semantic_hash": "c4ceac1e197baef5493cb0ce78497742"
+  },
+  "kryonix-brain-lightrag/tests/test_refine_filters.py": {
+    "mtime": 1782178886.3014028,
+    "ast_hash": "af0393177cd8855ce62e39f8efb8e4ae",
+    "semantic_hash": "af0393177cd8855ce62e39f8efb8e4ae"
+  },
+  "kryonix-brain-lightrag/tests/test_refine_report.py": {
+    "mtime": 1782178886.3014736,
+    "ast_hash": "f5de5c3ed2632ff48f19bf8fa23fc49f",
+    "semantic_hash": "f5de5c3ed2632ff48f19bf8fa23fc49f"
+  },
+  "kryonix-brain-lightrag/tests/test_refine_state.py": {
+    "mtime": 1782178886.3014736,
+    "ast_hash": "f08d721115211a2a34285ca5b5df1b84",
+    "semantic_hash": "f08d721115211a2a34285ca5b5df1b84"
+  },
+  "kryonix-brain-lightrag/tests/test_smoke.py": {
+    "mtime": 1782178886.3015485,
+    "ast_hash": "4ec114b151d942bb1c1ca67228d5998c",
+    "semantic_hash": "4ec114b151d942bb1c1ca67228d5998c"
+  },
+  "kryonix-brain-lightrag/tests/test_storage_guard.py": {
+    "mtime": 1782178886.3015485,
+    "ast_hash": "2db35eb97cb5fc98821539e781ec1df7",
+    "semantic_hash": "2db35eb97cb5fc98821539e781ec1df7"
+  },
+  "kryonix-brain-lightrag/tests/test_utils.py": {
+    "mtime": 1782178886.3016336,
+    "ast_hash": "c187cc2e29d059a7ec2af0b7a14894f9",
+    "semantic_hash": "c187cc2e29d059a7ec2af0b7a14894f9"
+  },
+  "kryonix-home/src/apply.rs": {
+    "mtime": 1782178691.3852232,
+    "ast_hash": "cdd4d1075064203965b9313897cdc35f",
+    "semantic_hash": "cdd4d1075064203965b9313897cdc35f"
+  },
+  "kryonix-home/src/autopilot.rs": {
+    "mtime": 1782178691.385384,
+    "ast_hash": "7abc25607aebd1da9d0737debdfb896e",
+    "semantic_hash": "7abc25607aebd1da9d0737debdfb896e"
+  },
+  "kryonix-home/src/cli.rs": {
+    "mtime": 1782178691.3854735,
+    "ast_hash": "14f4c71e70e96a4350d03d48efa02861",
+    "semantic_hash": "14f4c71e70e96a4350d03d48efa02861"
+  },
+  "kryonix-home/src/content.rs": {
+    "mtime": 1782178691.385585,
+    "ast_hash": "7c845a452832db8d2a71de74b2868133",
+    "semantic_hash": "7c845a452832db8d2a71de74b2868133"
+  },
+  "kryonix-home/src/context.rs": {
+    "mtime": 1782178691.385585,
+    "ast_hash": "562297d2a935746f08674b423cacebd0",
+    "semantic_hash": "562297d2a935746f08674b423cacebd0"
+  },
+  "kryonix-home/src/decision.rs": {
+    "mtime": 1782178691.385585,
+    "ast_hash": "0ebc01795345b7e1de6517834a95bd0b",
+    "semantic_hash": "0ebc01795345b7e1de6517834a95bd0b"
+  },
+  "kryonix-home/src/export.rs": {
+    "mtime": 1782178691.3857703,
+    "ast_hash": "ca15d1a8831c2efb9d5130492f81adb0",
+    "semantic_hash": "ca15d1a8831c2efb9d5130492f81adb0"
+  },
+  "kryonix-home/src/hashing.rs": {
+    "mtime": 1782178691.3858345,
+    "ast_hash": "1c0dbc17a350f2d77e66bba783338076",
+    "semantic_hash": "1c0dbc17a350f2d77e66bba783338076"
+  },
+  "kryonix-home/src/ignore.rs": {
+    "mtime": 1782178691.3858764,
+    "ast_hash": "6459814b8c28c47c04d4aa5567fb1bbd",
+    "semantic_hash": "6459814b8c28c47c04d4aa5567fb1bbd"
+  },
+  "kryonix-home/src/main.rs": {
+    "mtime": 1782178691.3859174,
+    "ast_hash": "ef9e6d4d105cec76c0dd6fdd395e1a9d",
+    "semantic_hash": "ef9e6d4d105cec76c0dd6fdd395e1a9d"
+  },
+  "kryonix-home/src/manifest.rs": {
+    "mtime": 1782178691.385949,
+    "ast_hash": "333179635a3578782f9b8750e96f63f6",
+    "semantic_hash": "333179635a3578782f9b8750e96f63f6"
+  },
+  "kryonix-home/src/metadata.rs": {
+    "mtime": 1782178691.385949,
+    "ast_hash": "7387a767df2907403e149656a0d4aed3",
+    "semantic_hash": "7387a767df2907403e149656a0d4aed3"
+  },
+  "kryonix-home/src/naming.rs": {
+    "mtime": 1782178691.38609,
+    "ast_hash": "90985fc378902f6e9c4417961c5abf4c",
+    "semantic_hash": "90985fc378902f6e9c4417961c5abf4c"
+  },
+  "kryonix-home/src/ollama.rs": {
+    "mtime": 1782178691.3861523,
+    "ast_hash": "05cd9a50a0a0c184f4b21d51cc787cb1",
+    "semantic_hash": "05cd9a50a0a0c184f4b21d51cc787cb1"
+  },
+  "kryonix-home/src/planner.rs": {
+    "mtime": 1782178691.386196,
+    "ast_hash": "f69bd8702e88a690e0375e61fa5b5e33",
+    "semantic_hash": "f69bd8702e88a690e0375e61fa5b5e33"
+  },
+  "kryonix-home/src/project.rs": {
+    "mtime": 1782178691.3863063,
+    "ast_hash": "1564550855635bc47f876637652b8d95",
+    "semantic_hash": "1564550855635bc47f876637652b8d95"
+  },
+  "kryonix-home/src/report.rs": {
+    "mtime": 1782178691.3863537,
+    "ast_hash": "bf52711e4d590f667208d382237f3de3",
+    "semantic_hash": "bf52711e4d590f667208d382237f3de3"
+  },
+  "kryonix-home/src/review.rs": {
+    "mtime": 1782178691.3864634,
+    "ast_hash": "34988b9297ce592347e45332262c1d15",
+    "semantic_hash": "34988b9297ce592347e45332262c1d15"
+  },
+  "kryonix-home/src/rollback.rs": {
+    "mtime": 1782178691.386545,
+    "ast_hash": "aad2c18ecbbe3ffa4b4a1eba4c44c4c6",
+    "semantic_hash": "aad2c18ecbbe3ffa4b4a1eba4c44c4c6"
+  },
+  "kryonix-home/src/scanner.rs": {
+    "mtime": 1782178691.386585,
+    "ast_hash": "d3315a3f912f0c5b718b8f14ce364407",
+    "semantic_hash": "d3315a3f912f0c5b718b8f14ce364407"
+  },
+  "kryonix-home/src/state.rs": {
+    "mtime": 1782178691.386585,
+    "ast_hash": "c253469fc4f92daedadbec60ddd557ad",
+    "semantic_hash": "c253469fc4f92daedadbec60ddd557ad"
+  },
+  "kryonix-home/src/taxonomy.rs": {
+    "mtime": 1782178691.3867416,
+    "ast_hash": "3f2ab14de802a36728f39ce6a335ad72",
+    "semantic_hash": "3f2ab14de802a36728f39ce6a335ad72"
+  },
+  "kryonix-home/src/watch.rs": {
+    "mtime": 1782178691.3868241,
+    "ast_hash": "eac46f38b37b3dc919acaec03c85479f",
+    "semantic_hash": "eac46f38b37b3dc919acaec03c85479f"
+  },
+  "kryonix-home/test_sandbox.sh": {
+    "mtime": 1782178691.3868241,
+    "ast_hash": "025aab63e59fc149660b97394a41ea9f",
+    "semantic_hash": "025aab63e59fc149660b97394a41ea9f"
+  },
+  "kryonix-home/verify_protected.sh": {
+    "mtime": 1782178691.3868241,
+    "ast_hash": "112c5b9703d4c0bc8867f8a44bf15e04",
+    "semantic_hash": "112c5b9703d4c0bc8867f8a44bf15e04"
+  },
+  "kryonix-installer/apply_semantic_theme.py": {
+    "mtime": 1782214145.4701152,
+    "ast_hash": "3b10746469ab9d864f8891ab2afee6c7",
+    "semantic_hash": "3b10746469ab9d864f8891ab2afee6c7"
+  },
+  "kryonix-installer/fix_app.js": {
+    "mtime": 1782559370.8784425,
+    "ast_hash": "6d54c0e70bd790708a2e3e9050beaeb5",
+    "semantic_hash": "6d54c0e70bd790708a2e3e9050beaeb5"
+  },
+  "kryonix-installer/fix_map.js": {
+    "mtime": 1782559401.8788376,
+    "ast_hash": "a5c24ab354d6912364dc4b1da2562e1e",
+    "semantic_hash": "a5c24ab354d6912364dc4b1da2562e1e"
+  },
+  "kryonix-installer/fix_network_theme.py": {
+    "mtime": 1782214145.4709742,
+    "ast_hash": "fabdccb563db849733a4b542092fa578",
+    "semantic_hash": "fabdccb563db849733a4b542092fa578"
+  },
+  "kryonix-installer/fix_theme.py": {
+    "mtime": 1782214145.4712684,
+    "ast_hash": "9beac2e728abcf9caae240e4f2fed564",
+    "semantic_hash": "9beac2e728abcf9caae240e4f2fed564"
+  },
+  "kryonix-installer/fix_ui.js": {
+    "mtime": 1782559361.560324,
+    "ast_hash": "ec5551c9c2019f9ee6ce3c07142f053a",
+    "semantic_hash": "ec5551c9c2019f9ee6ce3c07142f053a"
+  },
+  "kryonix-installer/schemas/install-plan.schema.json": {
+    "mtime": 1782608717.041389,
+    "ast_hash": "f9682ef81c00276636998942239f5210",
+    "semantic_hash": "f9682ef81c00276636998942239f5210"
+  },
+  "kryonix-installer/src/auth.rs": {
+    "mtime": 1782566308.7488897,
+    "ast_hash": "2acd99b43defccc7b49a32124464430e",
+    "semantic_hash": "2acd99b43defccc7b49a32124464430e"
+  },
+  "kryonix-installer/src/detection.rs": {
+    "mtime": 1782178673.6252809,
+    "ast_hash": "bfd246040a4edf6a8a40afcb10474b32",
+    "semantic_hash": "bfd246040a4edf6a8a40afcb10474b32"
+  },
+  "kryonix-installer/src/disk.rs": {
+    "mtime": 1782178673.6253884,
+    "ast_hash": "5216866018950c91ece4be4ae0abbd21",
+    "semantic_hash": "5216866018950c91ece4be4ae0abbd21"
+  },
+  "kryonix-installer/src/executor/kryonixos.rs": {
+    "mtime": 1782511175.4561398,
+    "ast_hash": "e9c00ac8ee0131697297e05cf7889f95",
+    "semantic_hash": "e9c00ac8ee0131697297e05cf7889f95"
+  },
+  "kryonix-installer/src/executor/mod.rs": {
+    "mtime": 1782212070.5592375,
+    "ast_hash": "f9b7672f4e5f6b42740c40ff7825c06c",
+    "semantic_hash": "f9b7672f4e5f6b42740c40ff7825c06c"
+  },
+  "kryonix-installer/src/executor/nixos.rs": {
+    "mtime": 1782178673.6255565,
+    "ast_hash": "f81d34e11cbcad3f1dd2d28976082f57",
+    "semantic_hash": "f81d34e11cbcad3f1dd2d28976082f57"
+  },
+  "kryonix-installer/src/executor/partition.rs": {
+    "mtime": 1782532996.1432383,
+    "ast_hash": "1f966705765d1c7f6c4dec14b4c151d6",
+    "semantic_hash": "1f966705765d1c7f6c4dec14b4c151d6"
+  },
+  "kryonix-installer/src/executor/progress.rs": {
+    "mtime": 1782178673.6257186,
+    "ast_hash": "de5167685473c43e65db7907dc180f16",
+    "semantic_hash": "de5167685473c43e65db7907dc180f16"
+  },
+  "kryonix-installer/src/executor/safety.rs": {
+    "mtime": 1782511175.4561398,
+    "ast_hash": "9b51356a3658d76e99badb630b278586",
+    "semantic_hash": "9b51356a3658d76e99badb630b278586"
+  },
+  "kryonix-installer/src/executor/target_tree.rs": {
+    "mtime": 1782533728.4816854,
+    "ast_hash": "16de0c2937420ea250774f7882b5d75d",
+    "semantic_hash": "16de0c2937420ea250774f7882b5d75d"
+  },
+  "kryonix-installer/src/executor/verify.rs": {
+    "mtime": 1782511175.4571397,
+    "ast_hash": "142b083fa062ea13ce60af1eaedc76aa",
+    "semantic_hash": "142b083fa062ea13ce60af1eaedc76aa"
+  },
+  "kryonix-installer/src/main.rs": {
+    "mtime": 1782750537.8859684,
+    "ast_hash": "07338cf4d6a4d951abdc3ba5b5480b9d",
+    "semantic_hash": "07338cf4d6a4d951abdc3ba5b5480b9d"
+  },
+  "kryonix-installer/src/network.rs": {
+    "mtime": 1782212070.5603557,
+    "ast_hash": "4c7cb979fda31e5758eb84e09c7beccd",
+    "semantic_hash": "4c7cb979fda31e5758eb84e09c7beccd"
+  },
+  "kryonix-installer/src/profiles.rs": {
+    "mtime": 1782178673.626309,
+    "ast_hash": "49076abf3c8b5a116250b5490c42c300",
+    "semantic_hash": "49076abf3c8b5a116250b5490c42c300"
+  },
+  "kryonix-installer/src/source.rs": {
+    "mtime": 1782750537.9069688,
+    "ast_hash": "4afb7a2f71cd11e579ed89fe53c15bdd",
+    "semantic_hash": "4afb7a2f71cd11e579ed89fe53c15bdd"
+  },
+  "kryonix-installer/test_hash.rs": {
+    "mtime": 1782214145.4747252,
+    "ast_hash": "68cbbd3350d702a15367b4a5543cece7",
+    "semantic_hash": "68cbbd3350d702a15367b4a5543cece7"
+  },
+  "kryonix-installer/ui/clean_jsx.js": {
+    "mtime": 1782214145.4749079,
+    "ast_hash": "2b7434a9860396216b2d5529d174e762",
+    "semantic_hash": "2b7434a9860396216b2d5529d174e762"
+  },
+  "kryonix-installer/ui/package.json": {
+    "mtime": 1782612911.838833,
+    "ast_hash": "f79c6568c9b555f0091fc1853cc4ed65",
+    "semantic_hash": "f79c6568c9b555f0091fc1853cc4ed65"
+  },
+  "kryonix-installer/ui/postcss.config.js": {
+    "mtime": 1782178673.652504,
+    "ast_hash": "c735540bb63936a123bc867d950c9f69",
+    "semantic_hash": "c735540bb63936a123bc867d950c9f69"
+  },
+  "kryonix-installer/ui/src/App.jsx": {
+    "mtime": 1782563067.2576325,
+    "ast_hash": "c2c53b787a3069fe57462ce61da95a3d",
+    "semantic_hash": "c2c53b787a3069fe57462ce61da95a3d"
+  },
+  "kryonix-installer/ui/src/components/AdvancedLogsDrawer.jsx": {
+    "mtime": 1782534665.1822054,
+    "ast_hash": "dfde73ac13ff8eceeb3c69105f20479d",
+    "semantic_hash": "dfde73ac13ff8eceeb3c69105f20479d"
+  },
+  "kryonix-installer/ui/src/components/Background3D.jsx": {
+    "mtime": 1782535967.2863188,
+    "ast_hash": "fbcfb0675f11875c83d299bd5daff04f",
+    "semantic_hash": "fbcfb0675f11875c83d299bd5daff04f"
+  },
+  "kryonix-installer/ui/src/components/DiskVisualizer.jsx": {
+    "mtime": 1782745196.9370022,
+    "ast_hash": "8a003c3e3ef9a19c23fcb57d0f19f59e",
+    "semantic_hash": "8a003c3e3ef9a19c23fcb57d0f19f59e"
+  },
+  "kryonix-installer/ui/src/components/EagleLogo.jsx": {
+    "mtime": 1782603975.0733309,
+    "ast_hash": "505fb6ad8ad5535251f2ff3ec6d16c40",
+    "semantic_hash": "505fb6ad8ad5535251f2ff3ec6d16c40"
+  },
+  "kryonix-installer/ui/src/components/ErrorDiagnosisPanel.jsx": {
+    "mtime": 1782745217.7802837,
+    "ast_hash": "707c176d720ae412e0746c095f52ee22",
+    "semantic_hash": "707c176d720ae412e0746c095f52ee22"
+  },
+  "kryonix-installer/ui/src/components/FieldError.jsx": {
+    "mtime": 1782178673.6528509,
+    "ast_hash": "8511fe4b65e8662a219812fbe85b4f87",
+    "semantic_hash": "8511fe4b65e8662a219812fbe85b4f87"
+  },
+  "kryonix-installer/ui/src/components/FooterFixed.jsx": {
+    "mtime": 1782566087.9619586,
+    "ast_hash": "e70ee2706f14f1a96a9e9ef8814cb1c3",
+    "semantic_hash": "e70ee2706f14f1a96a9e9ef8814cb1c3"
+  },
+  "kryonix-installer/ui/src/components/KxCombobox.jsx": {
+    "mtime": 1782745233.9895027,
+    "ast_hash": "61c6a0908c7caada068b9bf9cc909642",
+    "semantic_hash": "61c6a0908c7caada068b9bf9cc909642"
+  },
+  "kryonix-installer/ui/src/components/Layout.jsx": {
+    "mtime": 1782608601.8789368,
+    "ast_hash": "1feeec0faf5b685950f22dfd9b643ae3",
+    "semantic_hash": "1feeec0faf5b685950f22dfd9b643ae3"
+  },
+  "kryonix-installer/ui/src/components/MockModeBanner.jsx": {
+    "mtime": 1782535951.0501022,
+    "ast_hash": "3c2f296c166905f2c1def64702054cc1",
+    "semantic_hash": "3c2f296c166905f2c1def64702054cc1"
+  },
+  "kryonix-installer/ui/src/components/ProfileSelector.jsx": {
+    "mtime": 1782745284.501183,
+    "ast_hash": "abb15005c65b2ceee8bd0acda7e7dc80",
+    "semantic_hash": "abb15005c65b2ceee8bd0acda7e7dc80"
+  },
+  "kryonix-installer/ui/src/components/TimezoneMap.jsx": {
+    "mtime": 1782747179.7243655,
+    "ast_hash": "ffd37982212cb31bb47ac715be26b742",
+    "semantic_hash": "ffd37982212cb31bb47ac715be26b742"
+  },
+  "kryonix-installer/ui/src/data/featureCatalog.js": {
+    "mtime": 1782748802.1568916,
+    "ast_hash": "3d62d80e7a56ad55efabf581eb6d0b00",
+    "semantic_hash": "3d62d80e7a56ad55efabf581eb6d0b00"
+  },
+  "kryonix-installer/ui/src/data/localizationMeta.js": {
+    "mtime": 1782178673.6533558,
+    "ast_hash": "0bf7ee2b300a96a2db72550fc39f2c0d",
+    "semantic_hash": "0bf7ee2b300a96a2db72550fc39f2c0d"
+  },
+  "kryonix-installer/ui/src/data/profileCatalog.js": {
+    "mtime": 1782212070.5603557,
+    "ast_hash": "9cb64128e739bd655ebe0cdce65e9f22",
+    "semantic_hash": "9cb64128e739bd655ebe0cdce65e9f22"
+  },
+  "kryonix-installer/ui/src/data/timezoneRegions.js": {
+    "mtime": 1782178673.6534953,
+    "ast_hash": "fc3e6bcf1e3ee031de4e13121e655028",
+    "semantic_hash": "fc3e6bcf1e3ee031de4e13121e655028"
+  },
+  "kryonix-installer/ui/src/hooks/useInstallExecution.js": {
+    "mtime": 1782534687.1034663,
+    "ast_hash": "6aea00a3e15cfc8f6b677dd89684054d",
+    "semantic_hash": "6aea00a3e15cfc8f6b677dd89684054d"
+  },
+  "kryonix-installer/ui/src/i18n/index.js": {
+    "mtime": 1782562153.5248652,
+    "ast_hash": "d324eff2aaef6735d7edaa9f00f7648e",
+    "semantic_hash": "d324eff2aaef6735d7edaa9f00f7648e"
+  },
+  "kryonix-installer/ui/src/i18n/locales/en-US.json": {
+    "mtime": 1782615925.166393,
+    "ast_hash": "a6c38422e2c620b42463c39aa66e0cbf",
+    "semantic_hash": "a6c38422e2c620b42463c39aa66e0cbf"
+  },
+  "kryonix-installer/ui/src/i18n/locales/es-ES.json": {
+    "mtime": 1782615925.1713932,
+    "ast_hash": "d813dac40268aafb09943e474e0c0bf9",
+    "semantic_hash": "d813dac40268aafb09943e474e0c0bf9"
+  },
+  "kryonix-installer/ui/src/i18n/locales/pt-BR.json": {
+    "mtime": 1782615925.1733932,
+    "ast_hash": "e15cf6ddf146a332234ce7dd93a8aace",
+    "semantic_hash": "e15cf6ddf146a332234ce7dd93a8aace"
+  },
+  "kryonix-installer/ui/src/install-plan.schema.json": {
+    "mtime": 1782608732.6425853,
+    "ast_hash": "2ce5d5e24dfab6f98dbe50ed10277286",
+    "semantic_hash": "2ce5d5e24dfab6f98dbe50ed10277286"
+  },
+  "kryonix-installer/ui/src/main.jsx": {
+    "mtime": 1782562165.3840196,
+    "ast_hash": "fe23441d382cef34718b50084088f98a",
+    "semantic_hash": "fe23441d382cef34718b50084088f98a"
+  },
+  "kryonix-installer/ui/src/pages/Disks.jsx": {
+    "mtime": 1782747209.9187386,
+    "ast_hash": "42b404007be044b3d246c3c35ab75f0d",
+    "semantic_hash": "42b404007be044b3d246c3c35ab75f0d"
+  },
+  "kryonix-installer/ui/src/pages/Eula.jsx": {
+    "mtime": 1782616608.57785,
+    "ast_hash": "9e9631f53adf8ef63e7b5bff92dfeed5",
+    "semantic_hash": "9e9631f53adf8ef63e7b5bff92dfeed5"
+  },
+  "kryonix-installer/ui/src/pages/HostSelection.jsx": {
+    "mtime": 1782616628.9481206,
+    "ast_hash": "8a14dd392b7974d198a56877e29afac1",
+    "semantic_hash": "8a14dd392b7974d198a56877e29afac1"
+  },
+  "kryonix-installer/ui/src/pages/Install.jsx": {
+    "mtime": 1782616673.801715,
+    "ast_hash": "0e988553fde62aa7be9887379e723f47",
+    "semantic_hash": "0e988553fde62aa7be9887379e723f47"
+  },
+  "kryonix-installer/ui/src/pages/MachineProfile.jsx": {
+    "mtime": 1782616710.6282015,
+    "ast_hash": "b411df2cba00018580a5953a9f52bc73",
+    "semantic_hash": "b411df2cba00018580a5953a9f52bc73"
+  },
+  "kryonix-installer/ui/src/pages/Network.jsx": {
+    "mtime": 1782747267.545453,
+    "ast_hash": "a9efa8e9323c4c51dfc2137cba90b4e4",
+    "semantic_hash": "a9efa8e9323c4c51dfc2137cba90b4e4"
+  },
+  "kryonix-installer/ui/src/pages/Profile.jsx": {
+    "mtime": 1782616728.9734435,
+    "ast_hash": "49d55042acb3445debbe914210dbd980",
+    "semantic_hash": "49d55042acb3445debbe914210dbd980"
+  },
+  "kryonix-installer/ui/src/pages/RemoteAccess.jsx": {
+    "mtime": 1782616767.0239446,
+    "ast_hash": "ea2d4969772dcbe55f1d37e1fda85ff6",
+    "semantic_hash": "ea2d4969772dcbe55f1d37e1fda85ff6"
+  },
+  "kryonix-installer/ui/src/pages/Source.jsx": {
+    "mtime": 1782616847.4790008,
+    "ast_hash": "3349897add15951fd2012e916c8cef34",
+    "semantic_hash": "3349897add15951fd2012e916c8cef34"
+  },
+  "kryonix-installer/ui/src/pages/Summary.jsx": {
+    "mtime": 1782616930.5080867,
+    "ast_hash": "b66c801e5a099e2c37bb72d42b61e2fe",
+    "semantic_hash": "b66c801e5a099e2c37bb72d42b61e2fe"
+  },
+  "kryonix-installer/ui/src/pages/SystemFeatures.jsx": {
+    "mtime": 1782748828.2242181,
+    "ast_hash": "6c88058599a1dd10b3a54528ec4f0ed1",
+    "semantic_hash": "6c88058599a1dd10b3a54528ec4f0ed1"
+  },
+  "kryonix-installer/ui/src/pages/Timezone.jsx": {
+    "mtime": 1782733909.3888347,
+    "ast_hash": "445f32aa02e2d5f719fce54d36afbdba",
+    "semantic_hash": "445f32aa02e2d5f719fce54d36afbdba"
+  },
+  "kryonix-installer/ui/src/pages/UserFeatures.jsx": {
+    "mtime": 1782748840.8763766,
+    "ast_hash": "f7a3c2a2922bf2a9723e27e3dc19eba4",
+    "semantic_hash": "f7a3c2a2922bf2a9723e27e3dc19eba4"
+  },
+  "kryonix-installer/ui/src/pages/Users.jsx": {
+    "mtime": 1782566088.0119593,
+    "ast_hash": "1ec1f8d98813c0f07919135846923adf",
+    "semantic_hash": "1ec1f8d98813c0f07919135846923adf"
+  },
+  "kryonix-installer/ui/src/pages/Welcome.jsx": {
+    "mtime": 1782597493.600786,
+    "ast_hash": "7010d20ea66eedeec18a9ca28f2d249f",
+    "semantic_hash": "7010d20ea66eedeec18a9ca28f2d249f"
+  },
+  "kryonix-installer/ui/src/state/wizardState.js": {
+    "mtime": 1782566210.9914963,
+    "ast_hash": "e47f9ad66b2c22dd088cb55e3e23bf78",
+    "semantic_hash": "e47f9ad66b2c22dd088cb55e3e23bf78"
+  },
+  "kryonix-installer/ui/src/tests/Disks.behavior.test.js": {
+    "mtime": 1782612891.9727123,
+    "ast_hash": "fa8c748021c98278e2442ef35b97f8fc",
+    "semantic_hash": "fa8c748021c98278e2442ef35b97f8fc"
+  },
+  "kryonix-installer/ui/src/tests/i18nHardcodedStrings.test.js": {
+    "mtime": 1782747312.1880085,
+    "ast_hash": "cd10315be50d4c4524d406d4eabae92d",
+    "semantic_hash": "cd10315be50d4c4524d406d4eabae92d"
+  },
+  "kryonix-installer/ui/src/tests/installExecution.test.js": {
+    "mtime": 1782178673.6552963,
+    "ast_hash": "448fda920cf081735cdf5aaf17735f97",
+    "semantic_hash": "448fda920cf081735cdf5aaf17735f97"
+  },
+  "kryonix-installer/ui/src/tests/installPlan.test.js": {
+    "mtime": 1782750400.534212,
+    "ast_hash": "917c223dcd411cd5aba1f9192b8ae729",
+    "semantic_hash": "917c223dcd411cd5aba1f9192b8ae729"
+  },
+  "kryonix-installer/ui/src/tests/layoutAssistant.test.js": {
+    "mtime": 1782610966.5105546,
+    "ast_hash": "2de01a83727b150491b8562cf1f0a2ef",
+    "semantic_hash": "2de01a83727b150491b8562cf1f0a2ef"
+  },
+  "kryonix-installer/ui/src/tests/localizationCatalog.test.js": {
+    "mtime": 1782178673.6555161,
+    "ast_hash": "09118fa402aa46955c27524664ec7157",
+    "semantic_hash": "09118fa402aa46955c27524664ec7157"
+  },
+  "kryonix-installer/ui/src/tests/manualPartitioner.test.js": {
+    "mtime": 1782612944.166252,
+    "ast_hash": "d8b44c10d86f928cf7c731375debb497",
+    "semantic_hash": "d8b44c10d86f928cf7c731375debb497"
+  },
+  "kryonix-installer/ui/src/tests/storagePlanner.test.js": {
+    "mtime": 1782178673.655653,
+    "ast_hash": "eacd6e21e4d992b9a9152dc13841bb7c",
+    "semantic_hash": "eacd6e21e4d992b9a9152dc13841bb7c"
+  },
+  "kryonix-installer/ui/src/tests/wizardFuzz.test.js": {
+    "mtime": 1782178673.6557207,
+    "ast_hash": "27e0426e28bf0ec23dffe8ef986b54c4",
+    "semantic_hash": "27e0426e28bf0ec23dffe8ef986b54c4"
+  },
+  "kryonix-installer/ui/src/tests/wizardState.test.js": {
+    "mtime": 1782178673.6557965,
+    "ast_hash": "818b1a043036ea4f9e49d9f97b63e7fb",
+    "semantic_hash": "818b1a043036ea4f9e49d9f97b63e7fb"
+  },
+  "kryonix-installer/ui/src/utils/calamaresTimezoneImages.js": {
+    "mtime": 1782178673.655915,
+    "ast_hash": "2de5ccd9e357c199fe1a209103551476",
+    "semantic_hash": "2de5ccd9e357c199fe1a209103551476"
+  },
+  "kryonix-installer/ui/src/utils/installExecution.js": {
+    "mtime": 1782178673.6559715,
+    "ast_hash": "49995e9db2ceda6e94ab58f21c819cc8",
+    "semantic_hash": "49995e9db2ceda6e94ab58f21c819cc8"
+  },
+  "kryonix-installer/ui/src/utils/installPlan.js": {
+    "mtime": 1782750361.1297083,
+    "ast_hash": "64a499a1c43bc602354a7b76eebd5383",
+    "semantic_hash": "64a499a1c43bc602354a7b76eebd5383"
+  },
+  "kryonix-installer/ui/src/utils/installerApi.js": {
+    "mtime": 1782748869.9297414,
+    "ast_hash": "775036b07e025cfe7d5d02e54db6c48e",
+    "semantic_hash": "775036b07e025cfe7d5d02e54db6c48e"
+  },
+  "kryonix-installer/ui/src/utils/installerApiMock.js": {
+    "mtime": 1782564303.7536464,
+    "ast_hash": "b220ed673448afbe4db5da21867f5af1",
+    "semantic_hash": "b220ed673448afbe4db5da21867f5af1"
+  },
+  "kryonix-installer/ui/src/utils/layoutAssistant.js": {
+    "mtime": 1782616010.3236313,
+    "ast_hash": "a168aaeb342c825e8ef2110231217b62",
+    "semantic_hash": "a168aaeb342c825e8ef2110231217b62"
+  },
+  "kryonix-installer/ui/src/utils/localizationCatalog.js": {
+    "mtime": 1782178673.6562915,
+    "ast_hash": "97115ae9b415e575b883971166779a92",
+    "semantic_hash": "97115ae9b415e575b883971166779a92"
+  },
+  "kryonix-installer/ui/src/utils/nearestTimezone.js": {
+    "mtime": 1782178673.6563513,
+    "ast_hash": "9c2c6c9e6259ba379d3d94ca2219dd47",
+    "semantic_hash": "9c2c6c9e6259ba379d3d94ca2219dd47"
+  },
+  "kryonix-installer/ui/src/utils/network.js": {
+    "mtime": 1782178673.6564116,
+    "ast_hash": "c52e020bd915c8f5023c0a2746aa52a4",
+    "semantic_hash": "c52e020bd915c8f5023c0a2746aa52a4"
+  },
+  "kryonix-installer/ui/src/utils/security.js": {
+    "mtime": 1782178673.6564739,
+    "ast_hash": "0de9ade0537b1abb17a77e5ba0dbe6f9",
+    "semantic_hash": "0de9ade0537b1abb17a77e5ba0dbe6f9"
+  },
+  "kryonix-installer/ui/src/utils/storagePlanner.js": {
+    "mtime": 1782178673.6565382,
+    "ast_hash": "2a8617c4f560f97fc4e6ccaa358a5b72",
+    "semantic_hash": "2a8617c4f560f97fc4e6ccaa358a5b72"
+  },
+  "kryonix-installer/ui/src/utils/timezoneProjection.js": {
+    "mtime": 1782178673.6566498,
+    "ast_hash": "f3a51a99c516a94bc55ccdb764e9edae",
+    "semantic_hash": "f3a51a99c516a94bc55ccdb764e9edae"
+  },
+  "kryonix-installer/ui/static/assets/index-DMCyZjWx.js": {
+    "mtime": 1782178673.6571658,
+    "ast_hash": "28fa763194547727ff1d464c3f748d91",
+    "semantic_hash": "28fa763194547727ff1d464c3f748d91"
+  },
+  "kryonix-installer/ui/tailwind.config.js": {
+    "mtime": 1782559600.464368,
+    "ast_hash": "f0672c9d934737914902b44c8d5fed49",
+    "semantic_hash": "f0672c9d934737914902b44c8d5fed49"
+  },
+  "kryonix-installer/ui/vite.config.js": {
+    "mtime": 1782178673.6634264,
+    "ast_hash": "857a37e0924155c15236b44137373f6f",
+    "semantic_hash": "857a37e0924155c15236b44137373f6f"
+  },
+  "kryonix-installer/update_theme.py": {
+    "mtime": 1782214145.4749794,
+    "ast_hash": "835ae20d534c8a9c194be8cd8860d51b",
+    "semantic_hash": "835ae20d534c8a9c194be8cd8860d51b"
+  },
+  "kryonix/.mcp.example.json": {
+    "mtime": 1782178666.700218,
+    "ast_hash": "0cb891b5ff834675b0c58b454aa8dc17",
+    "semantic_hash": "0cb891b5ff834675b0c58b454aa8dc17"
+  },
+  "kryonix/.vscode/settings.json": {
+    "mtime": 1782178666.700328,
+    "ast_hash": "c14b855b493b362c1e483fcf4dcfb51c",
+    "semantic_hash": "c14b855b493b362c1e483fcf4dcfb51c"
+  },
+  "kryonix/desktop/kde/kryonix-blue-glass/desktoptheme/kryonix-blue-glass/metadata.json": {
+    "mtime": 1782475001.3067205,
+    "ast_hash": "31c2329f31658b617675f2f4c92231bb",
+    "semantic_hash": "31c2329f31658b617675f2f4c92231bb"
+  },
+  "kryonix/desktop/sddm/kryonix-aurora/Colors.js": {
+    "mtime": 1782178666.7287817,
+    "ast_hash": "f60768e138d9a8bd45b407c86131b11d",
+    "semantic_hash": "f60768e138d9a8bd45b407c86131b11d"
+  },
+  "kryonix/desktop/wallpapers/kryonix-aurora/sources/manifest.json": {
+    "mtime": 1782178666.7590032,
+    "ast_hash": "46a5cd1f4c6577d7087919617866c67c",
+    "semantic_hash": "46a5cd1f4c6577d7087919617866c67c"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/templates/windows/komorebi.json": {
+    "mtime": 1782178666.7665155,
+    "ast_hash": "36fe32d16984d9fedab2c52dccdd7f16",
+    "semantic_hash": "36fe32d16984d9fedab2c52dccdd7f16"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/.obsidian/app.json": {
+    "mtime": 1782178666.7697015,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/.obsidian/appearance.json": {
+    "mtime": 1782178666.7697756,
+    "ast_hash": "7cbdb277418ac099f25d94dadc118abc",
+    "semantic_hash": "7cbdb277418ac099f25d94dadc118abc"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/.obsidian/core-plugins.json": {
+    "mtime": 1782178666.7697756,
+    "ast_hash": "7c877bea49eaeabb100563bd157b9051",
+    "semantic_hash": "7c877bea49eaeabb100563bd157b9051"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/.obsidian/graph.json": {
+    "mtime": 1782178666.7697756,
+    "ast_hash": "ac773d1f04e60f701d9de2179377513f",
+    "semantic_hash": "ac773d1f04e60f701d9de2179377513f"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/.obsidian/themes/Encore/manifest.json": {
+    "mtime": 1782178666.7699335,
+    "ast_hash": "40ae776a5a3a04b9698ca4fb5ccb5b31",
+    "semantic_hash": "40ae776a5a3a04b9698ca4fb5ccb5b31"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/.obsidian/themes/Obsidianite/manifest.json": {
+    "mtime": 1782178666.7699952,
+    "ast_hash": "e38eba23daec311a26a0fa446578e9ed",
+    "semantic_hash": "e38eba23daec311a26a0fa446578e9ed"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/.obsidian/themes/Ono Sendai/manifest.json": {
+    "mtime": 1782178666.7704043,
+    "ast_hash": "36250bd0411dc5df9cd8ddbb65cdf4b4",
+    "semantic_hash": "36250bd0411dc5df9cd8ddbb65cdf4b4"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/.obsidian/themes/Things/manifest.json": {
+    "mtime": 1782178666.770658,
+    "ast_hash": "b780c5370e86a818d08b7a4d72f63256",
+    "semantic_hash": "b780c5370e86a818d08b7a4d72f63256"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/.obsidian/workspace.json": {
+    "mtime": 1782178666.770847,
+    "ast_hash": "967de30aa91d7a4a1ff3dd34e6262a70",
+    "semantic_hash": "967de30aa91d7a4a1ff3dd34e6262a70"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/scripts/check_obsidian_links.py": {
+    "mtime": 1782178666.78278,
+    "ast_hash": "37e4d6e4ab649fd41c1cc430c5532428",
+    "semantic_hash": "37e4d6e4ab649fd41c1cc430c5532428"
+  },
+  "kryonix/features/f5-tts-server/api_server.py": {
+    "mtime": 1782178666.7951736,
+    "ast_hash": "91ecabfb478001f87ce45d306c28d3c0",
+    "semantic_hash": "91ecabfb478001f87ce45d306c28d3c0"
+  },
+  "kryonix/features/f5-tts-server/setup.sh": {
+    "mtime": 1782178666.795314,
+    "ast_hash": "016b7562877a4430e8b91c178c49674f",
+    "semantic_hash": "016b7562877a4430e8b91c178c49674f"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/.luarc.json": {
+    "mtime": 1782178666.7999225,
+    "ast_hash": "2ac971dee3ded2ac1ea61e46711794fd",
+    "semantic_hash": "2ac971dee3ded2ac1ea61e46711794fd"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/.neoconf.json": {
+    "mtime": 1782178666.8000088,
+    "ast_hash": "8471bfc3f000e00f5f830159e3d9d37e",
+    "semantic_hash": "8471bfc3f000e00f5f830159e3d9d37e"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/init.lua": {
+    "mtime": 1782178666.8000088,
+    "ast_hash": "d9646e1a180b5f6da5f8732fa974743d",
+    "semantic_hash": "d9646e1a180b5f6da5f8732fa974743d"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/config/autocmds.lua": {
+    "mtime": 1782178666.8001025,
+    "ast_hash": "6b17e7f180d3a01315da6c444d263e14",
+    "semantic_hash": "6b17e7f180d3a01315da6c444d263e14"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/config/keymaps.lua": {
+    "mtime": 1782178666.8002193,
+    "ast_hash": "173738edd7d49fdde2f3fd77a02feb52",
+    "semantic_hash": "173738edd7d49fdde2f3fd77a02feb52"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/config/lazy.lua": {
+    "mtime": 1782178666.8002193,
+    "ast_hash": "44ddc3a8613a422b99ddbf9177f73d26",
+    "semantic_hash": "44ddc3a8613a422b99ddbf9177f73d26"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/config/options.lua": {
+    "mtime": 1782178666.8002193,
+    "ast_hash": "08ed1986ff6b4363d8b89826c73a7ec3",
+    "semantic_hash": "08ed1986ff6b4363d8b89826c73a7ec3"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/plugins/catppucin.lua": {
+    "mtime": 1782178666.8002193,
+    "ast_hash": "5f251ee87a02febae8034f9732090854",
+    "semantic_hash": "5f251ee87a02febae8034f9732090854"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/plugins/helm-ls.lua": {
+    "mtime": 1782178666.800404,
+    "ast_hash": "e0ea4af141a82a6d0f81809c3e08c242",
+    "semantic_hash": "e0ea4af141a82a6d0f81809c3e08c242"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/plugins/lsp.lua": {
+    "mtime": 1782178666.800404,
+    "ast_hash": "de2fca9767a881d0cedada3af187c373",
+    "semantic_hash": "de2fca9767a881d0cedada3af187c373"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/plugins/mason.lua": {
+    "mtime": 1782178666.800404,
+    "ast_hash": "3721d1d5958ecc30ccff7e5f89099a32",
+    "semantic_hash": "3721d1d5958ecc30ccff7e5f89099a32"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/plugins/neo-tree.lua": {
+    "mtime": 1782178666.800404,
+    "ast_hash": "60e8f76ba46f315f64885263dea8b7e9",
+    "semantic_hash": "60e8f76ba46f315f64885263dea8b7e9"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/plugins/none-ls.lua": {
+    "mtime": 1782178666.800603,
+    "ast_hash": "4dd7d8edd66af03e7f5e7baa0037a2fd",
+    "semantic_hash": "4dd7d8edd66af03e7f5e7baa0037a2fd"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/plugins/snacks.lua": {
+    "mtime": 1782178666.800681,
+    "ast_hash": "5fc58808ad35dd9067c5e4243ce6b498",
+    "semantic_hash": "5fc58808ad35dd9067c5e4243ce6b498"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/plugins/tmux-navigator.lua": {
+    "mtime": 1782178666.8007329,
+    "ast_hash": "5de7c0daab70e9b16108bbb196d00800",
+    "semantic_hash": "5de7c0daab70e9b16108bbb196d00800"
+  },
+  "kryonix/modules/home-manager/programs/neovim/lazyvim/lua/plugins/treesitter.lua": {
+    "mtime": 1782178666.8007827,
+    "ast_hash": "7d5df870711e19382dc07f173ce2bf46",
+    "semantic_hash": "7d5df870711e19382dc07f173ce2bf46"
+  },
+  "kryonix/modules/home-manager/scripts/bin/asg-getter": {
+    "mtime": 1782178666.8028624,
+    "ast_hash": "393fab8532dd1b21a43e3581729c506c",
+    "semantic_hash": "393fab8532dd1b21a43e3581729c506c"
+  },
+  "kryonix/modules/home-manager/scripts/bin/asg-rotator": {
+    "mtime": 1782178666.8029697,
+    "ast_hash": "e8f7af7531424813fc9539ad375de045",
+    "semantic_hash": "e8f7af7531424813fc9539ad375de045"
+  },
+  "kryonix/modules/home-manager/scripts/bin/cd-to-project": {
+    "mtime": 1782178666.8030019,
+    "ast_hash": "552f8c20005261c8679480203f998478",
+    "semantic_hash": "552f8c20005261c8679480203f998478"
+  },
+  "kryonix/modules/home-manager/scripts/bin/docker": {
+    "mtime": 1782178666.8030393,
+    "ast_hash": "19eb2c35b03bca3a84263d9b88c208c9",
+    "semantic_hash": "19eb2c35b03bca3a84263d9b88c208c9"
+  },
+  "kryonix/modules/home-manager/scripts/bin/dynamic-hyprlock": {
+    "mtime": 1782178666.8030753,
+    "ast_hash": "b9997a1bee1aac4ca471ddd3512b336b",
+    "semantic_hash": "b9997a1bee1aac4ca471ddd3512b336b"
+  },
+  "kryonix/modules/home-manager/scripts/bin/fif": {
+    "mtime": 1782178666.8031242,
+    "ast_hash": "74d65ea94b8b713fc672998c3689ff39",
+    "semantic_hash": "74d65ea94b8b713fc672998c3689ff39"
+  },
+  "kryonix/modules/home-manager/scripts/bin/fkill": {
+    "mtime": 1782178666.8031564,
+    "ast_hash": "2f5c60b1a3b3a0a21530957d2908a1b3",
+    "semantic_hash": "2f5c60b1a3b3a0a21530957d2908a1b3"
+  },
+  "kryonix/modules/home-manager/scripts/bin/game-perf": {
+    "mtime": 1782178666.8031871,
+    "ast_hash": "9ddb94e16544ddc41c084d795b7eb5e7",
+    "semantic_hash": "9ddb94e16544ddc41c084d795b7eb5e7"
+  },
+  "kryonix/modules/home-manager/scripts/bin/git-reset": {
+    "mtime": 1782178666.8032262,
+    "ast_hash": "9b7dff3fbc4c6285cd05737b3a9b0a09",
+    "semantic_hash": "9b7dff3fbc4c6285cd05737b3a9b0a09"
+  },
+  "kryonix/modules/home-manager/scripts/bin/heroic-safe": {
+    "mtime": 1782178666.8032677,
+    "ast_hash": "520d7deddb20554fd3b2506b85f76f91",
+    "semantic_hash": "520d7deddb20554fd3b2506b85f76f91"
+  },
+  "kryonix/modules/home-manager/scripts/bin/hrr": {
+    "mtime": 1782178666.8033068,
+    "ast_hash": "a32753096a5538c426cccc20a186b2a8",
+    "semantic_hash": "a32753096a5538c426cccc20a186b2a8"
+  },
+  "kryonix/modules/home-manager/scripts/bin/kde_mv_window": {
+    "mtime": 1782178666.8033416,
+    "ast_hash": "e0b285d1f8da607c7d7d64b665e50ea0",
+    "semantic_hash": "e0b285d1f8da607c7d7d64b665e50ea0"
+  },
+  "kryonix/modules/home-manager/scripts/bin/konfig-updater": {
+    "mtime": 1782178666.8033752,
+    "ast_hash": "a3029b9f730e127186520d12bf26eb3b",
+    "semantic_hash": "a3029b9f730e127186520d12bf26eb3b"
+  },
+  "kryonix/modules/home-manager/scripts/bin/ks": {
+    "mtime": 1782178666.8034184,
+    "ast_hash": "0dd0462a2070fef0f2283a295cbfd906",
+    "semantic_hash": "0dd0462a2070fef0f2283a295cbfd906"
+  },
+  "kryonix/modules/home-manager/scripts/bin/nh": {
+    "mtime": 1782178666.8034847,
+    "ast_hash": "38894cfc81e4a8e4f64c1f304483f68b",
+    "semantic_hash": "38894cfc81e4a8e4f64c1f304483f68b"
+  },
+  "kryonix/modules/home-manager/scripts/bin/ocr": {
+    "mtime": 1782178666.803565,
+    "ast_hash": "1f1acf3e1b6fd664617407f01f75b05d",
+    "semantic_hash": "1f1acf3e1b6fd664617407f01f75b05d"
+  },
+  "kryonix/modules/home-manager/scripts/bin/proton-safe": {
+    "mtime": 1782178666.803565,
+    "ast_hash": "3295858a87c8b7418ca6d48f1f586371",
+    "semantic_hash": "3295858a87c8b7418ca6d48f1f586371"
+  },
+  "kryonix/modules/home-manager/scripts/bin/pull-all": {
+    "mtime": 1782178666.8036633,
+    "ast_hash": "7fbd58a0559a80058ce76c6603e11a20",
+    "semantic_hash": "7fbd58a0559a80058ce76c6603e11a20"
+  },
+  "kryonix/modules/home-manager/scripts/bin/screen-recorder": {
+    "mtime": 1782178666.8037064,
+    "ast_hash": "e00f6b827d6d4ca7d26ac76feaf2a268",
+    "semantic_hash": "e00f6b827d6d4ca7d26ac76feaf2a268"
+  },
+  "kryonix/modules/home-manager/scripts/bin/steam-safe": {
+    "mtime": 1782178666.803743,
+    "ast_hash": "6da7b8e4852d2448a2f0ca80b2b8b7bb",
+    "semantic_hash": "6da7b8e4852d2448a2f0ca80b2b8b7bb"
+  },
+  "kryonix/modules/home-manager/scripts/bin/terra-clean": {
+    "mtime": 1782178666.803779,
+    "ast_hash": "2fc9da4472205fc4a6bd40fce15cb71d",
+    "semantic_hash": "2fc9da4472205fc4a6bd40fce15cb71d"
+  },
+  "kryonix/modules/home-manager/scripts/bin/traverser": {
+    "mtime": 1782178666.8038201,
+    "ast_hash": "818805ece0afa93bc9a2d9b98d9ccead",
+    "semantic_hash": "818805ece0afa93bc9a2d9b98d9ccead"
+  },
+  "kryonix/modules/home-manager/scripts/bin/zen-profile-backup": {
+    "mtime": 1782178666.803872,
+    "ast_hash": "0800eae739351922f43429860fcb4c2d",
+    "semantic_hash": "0800eae739351922f43429860fcb4c2d"
+  },
+  "kryonix/modules/home-manager/scripts/bin/zen-profile-restore": {
+    "mtime": 1782178666.8039112,
+    "ast_hash": "174e7222b507fa3f95e603b595d55322",
+    "semantic_hash": "174e7222b507fa3f95e603b595d55322"
+  },
+  "kryonix/modules/nixos/installer/kryonix-install-tui.sh": {
+    "mtime": 1782178666.8080702,
+    "ast_hash": "7a9797f368cddd6b3bca5d00ac98fcb1",
+    "semantic_hash": "7a9797f368cddd6b3bca5d00ac98fcb1"
+  },
+  "kryonix/modules/nixos/installer/tui-lib.sh": {
+    "mtime": 1782178666.8081477,
+    "ast_hash": "59291b839da523bed8698bd3bbc1b0ca",
+    "semantic_hash": "59291b839da523bed8698bd3bbc1b0ca"
+  },
+  "kryonix/packages/aura/aura.sh": {
+    "mtime": 1782178666.8108468,
+    "ast_hash": "ee033e8ef18b7250732bbde5d1269722",
+    "semantic_hash": "ee033e8ef18b7250732bbde5d1269722"
+  },
+  "kryonix/packages/kryonix-bar/backend/src/main.rs": {
+    "mtime": 1782178666.811281,
+    "ast_hash": "74e19f347b6ebba0519746e9e5301719",
+    "semantic_hash": "74e19f347b6ebba0519746e9e5301719"
+  },
+  "kryonix/packages/kryonix-caelestia-watcher/src/main.rs": {
+    "mtime": 1782178666.811595,
+    "ast_hash": "508ae29d7b50d5390d481c5cd40f2ab7",
+    "semantic_hash": "508ae29d7b50d5390d481c5cd40f2ab7"
+  },
+  "kryonix/packages/kryonix-caelestia-watcher/src/watcher.rs": {
+    "mtime": 1782178666.811657,
+    "ast_hash": "aae0a5c1ca4c2ef018586d40e5704b2f",
+    "semantic_hash": "aae0a5c1ca4c2ef018586d40e5704b2f"
+  },
+  "kryonix/packages/kryonix-cli/brain.sh": {
+    "mtime": 1782178666.8119197,
+    "ast_hash": "f33b4c62f02e0130c1c9954564a87c84",
+    "semantic_hash": "f33b4c62f02e0130c1c9954564a87c84"
+  },
+  "kryonix/packages/kryonix-cli/core.sh": {
+    "mtime": 1782178666.8120952,
+    "ast_hash": "6e46c486773a1166e86c469dea2fa5f8",
+    "semantic_hash": "6e46c486773a1166e86c469dea2fa5f8"
+  },
+  "kryonix/packages/kryonix-cli/git.sh": {
+    "mtime": 1782178666.8121457,
+    "ast_hash": "4dd156bcf5bf58636358daa94e0a1f9f",
+    "semantic_hash": "4dd156bcf5bf58636358daa94e0a1f9f"
+  },
+  "kryonix/packages/kryonix-cli/home.sh": {
+    "mtime": 1782178666.8121884,
+    "ast_hash": "bda9da55bb656b01ff0259c6904024da",
+    "semantic_hash": "bda9da55bb656b01ff0259c6904024da"
+  },
+  "kryonix/packages/kryonix-cli/installer.sh": {
+    "mtime": 1782178666.812225,
+    "ast_hash": "623f274d8cc4920167a4d8c393285b01",
+    "semantic_hash": "623f274d8cc4920167a4d8c393285b01"
+  },
+  "kryonix/packages/kryonix-cli/main.sh": {
+    "mtime": 1782178666.812323,
+    "ast_hash": "1750a8d63d5d4f665654dfe3604a689f",
+    "semantic_hash": "1750a8d63d5d4f665654dfe3604a689f"
+  },
+  "kryonix/packages/kryonix-cli/nixos.sh": {
+    "mtime": 1782178666.8124013,
+    "ast_hash": "e5a0da6c019e83513cb8c46281c7ba6a",
+    "semantic_hash": "e5a0da6c019e83513cb8c46281c7ba6a"
+  },
+  "kryonix/packages/kryonix-cli/post-install.sh": {
+    "mtime": 1782178666.8124485,
+    "ast_hash": "a7edcb177bc9885f4cbb58e285013c03",
+    "semantic_hash": "a7edcb177bc9885f4cbb58e285013c03"
+  },
+  "kryonix/packages/kryonix-cli/registry.sh": {
+    "mtime": 1782178666.8125002,
+    "ast_hash": "f460007f1674fe69ab59bb28b83f0d8a",
+    "semantic_hash": "f460007f1674fe69ab59bb28b83f0d8a"
+  },
+  "kryonix/packages/kryonix-cli/remote.sh": {
+    "mtime": 1782178666.8125443,
+    "ast_hash": "d4264bb41ca325de5dd191eb70bfb5c7",
+    "semantic_hash": "d4264bb41ca325de5dd191eb70bfb5c7"
+  },
+  "kryonix/packages/kryonix-cli/services.sh": {
+    "mtime": 1782178666.8126125,
+    "ast_hash": "5f91771814caa5159a19eed751c8eab5",
+    "semantic_hash": "5f91771814caa5159a19eed751c8eab5"
+  },
+  "kryonix/packages/kryonix-disk-planner/src/main.rs": {
+    "mtime": 1782178666.8128216,
+    "ast_hash": "8c897dba83c2c8504cd7b9bd679be699",
+    "semantic_hash": "8c897dba83c2c8504cd7b9bd679be699"
+  },
+  "kryonix/packages/kryonix-hardware-probe/src/main.rs": {
+    "mtime": 1782178666.8130848,
+    "ast_hash": "d20c5de6aeb5abd62491f9fe71ec570a",
+    "semantic_hash": "d20c5de6aeb5abd62491f9fe71ec570a"
+  },
+  "kryonix/packages/kryonix-optimizer/kryonix_optimizer/__init__.py": {
+    "mtime": 1782178666.8133125,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "kryonix/packages/kryonix-optimizer/kryonix_optimizer/context_binder.py": {
+    "mtime": 1782178666.8133848,
+    "ast_hash": "247c2a2d351dd47c1dab1755e10ffe56",
+    "semantic_hash": "247c2a2d351dd47c1dab1755e10ffe56"
+  },
+  "kryonix/packages/kryonix-optimizer/kryonix_optimizer/main.py": {
+    "mtime": 1782178666.8134258,
+    "ast_hash": "e33e8935d43ecd46388ed9bbb26fe72b",
+    "semantic_hash": "e33e8935d43ecd46388ed9bbb26fe72b"
+  },
+  "kryonix/packages/kryonix-optimizer/pyproject.toml": {
+    "mtime": 1782178666.8134918,
+    "ast_hash": "8a8154011badeaa19cc3945ea4061623",
+    "semantic_hash": "8a8154011badeaa19cc3945ea4061623"
+  },
+  "kryonix/packages/kryonix-optimizer/tests/test_context.py": {
+    "mtime": 1782178666.8135269,
+    "ast_hash": "178ff8ad9358c4762e80f83cdec5dae0",
+    "semantic_hash": "178ff8ad9358c4762e80f83cdec5dae0"
+  },
+  "kryonix/packages/kryonix-optimizer/tests/test_optimizer.py": {
+    "mtime": 1782178666.8135617,
+    "ast_hash": "4b1e9e2cb533839e73f9e9f2e2361bc8",
+    "semantic_hash": "4b1e9e2cb533839e73f9e9f2e2361bc8"
+  },
+  "kryonix/scripts/check-desktop-exec.sh": {
+    "mtime": 1782178666.814552,
+    "ast_hash": "d0bc4709a9008ddc3333a3eb853d5fa9",
+    "semantic_hash": "d0bc4709a9008ddc3333a3eb853d5fa9"
+  },
+  "kryonix/scripts/check-kryonix-cli-help.sh": {
+    "mtime": 1782178666.8146346,
+    "ast_hash": "e72e4f7ce4fcb6e2b0dfb8f57e3cd99f",
+    "semantic_hash": "e72e4f7ce4fcb6e2b0dfb8f57e3cd99f"
+  },
+  "kryonix/scripts/check-mcp.sh": {
+    "mtime": 1782178666.814716,
+    "ast_hash": "86cfc0fd968ec8176d7965f69eaa3136",
+    "semantic_hash": "86cfc0fd968ec8176d7965f69eaa3136"
+  },
+  "kryonix/scripts/doc-audit.sh": {
+    "mtime": 1782178666.8147628,
+    "ast_hash": "f0cda76c6aaa9a5a4acf6ce43945b711",
+    "semantic_hash": "f0cda76c6aaa9a5a4acf6ce43945b711"
+  },
+  "kryonix/scripts/glacier-doctor.sh": {
+    "mtime": 1782178666.8148212,
+    "ast_hash": "36c434b5e827a0f30e13a77a9feb6344",
+    "semantic_hash": "36c434b5e827a0f30e13a77a9feb6344"
+  },
+  "kryonix/scripts/inject_wikilinks.py": {
+    "mtime": 1782178666.8148685,
+    "ast_hash": "8e8e765eef89b8bf9d45e1c7bd4f3077",
+    "semantic_hash": "8e8e765eef89b8bf9d45e1c7bd4f3077"
+  },
+  "kryonix/scripts/kora-retire-runtime.sh": {
+    "mtime": 1782178666.814907,
+    "ast_hash": "1c870f1843fbf9fd4ce200355e576cba",
+    "semantic_hash": "1c870f1843fbf9fd4ce200355e576cba"
+  },
+  "kryonix/scripts/kryonix-graph-ingest-dry-run.sh": {
+    "mtime": 1782178666.8149529,
+    "ast_hash": "83bb9ee400458a771f929eb45d6fbfdf",
+    "semantic_hash": "83bb9ee400458a771f929eb45d6fbfdf"
+  },
+  "kryonix/scripts/kryonix-monitors.sh": {
+    "mtime": 1782178666.8150177,
+    "ast_hash": "9d2c09e698b52bd868d532c5a794ff88",
+    "semantic_hash": "9d2c09e698b52bd868d532c5a794ff88"
+  },
+  "kryonix/scripts/kryonix-neo4j-doctor.sh": {
+    "mtime": 1782178666.815078,
+    "ast_hash": "ab89f99d4c278fc0fcce695052bf2152",
+    "semantic_hash": "ab89f99d4c278fc0fcce695052bf2152"
+  },
+  "kryonix/scripts/kryonix-secret-scan.py": {
+    "mtime": 1782178666.8151414,
+    "ast_hash": "bfeaeddfe1e1bc733b7797000f88457d",
+    "semantic_hash": "bfeaeddfe1e1bc733b7797000f88457d"
+  },
+  "kryonix/scripts/kryonix-vm-connect.sh": {
+    "mtime": 1782178666.8151863,
+    "ast_hash": "7dd7d502653bfea13fa710d89f0484d4",
+    "semantic_hash": "7dd7d502653bfea13fa710d89f0484d4"
+  },
+  "kryonix/scripts/publish-installer.sh": {
+    "mtime": 1782178666.8152556,
+    "ast_hash": "ecf23cc84918372db78b4701ab093c7f",
+    "semantic_hash": "ecf23cc84918372db78b4701ab093c7f"
+  },
+  "kryonix/scripts/record_voice_reference.sh": {
+    "mtime": 1782178666.8153884,
+    "ast_hash": "c045f48613586880f16550ceae2999d7",
+    "semantic_hash": "c045f48613586880f16550ceae2999d7"
+  },
+  "kryonix/scripts/restore-brain-nixos.sh": {
+    "mtime": 1782178666.8154368,
+    "ast_hash": "2ab0844b0397013250c98d585b029139",
+    "semantic_hash": "2ab0844b0397013250c98d585b029139"
+  },
+  "kryonix/scripts/rotate-kryonix-brain-api-key.sh": {
+    "mtime": 1782178666.815479,
+    "ast_hash": "7ee7108bbcb9ad89f2c6e5274181f511",
+    "semantic_hash": "7ee7108bbcb9ad89f2c6e5274181f511"
+  },
+  "kryonix/scripts/test-inspiron-apps.sh": {
+    "mtime": 1782178666.8155186,
+    "ast_hash": "03fc4a5dc536f40e52d0a5fed24eeb24",
+    "semantic_hash": "03fc4a5dc536f40e52d0a5fed24eeb24"
+  },
+  "kryonix/scripts/test-installer-kvm.sh": {
+    "mtime": 1782178666.8155186,
+    "ast_hash": "a8b1d800f1473aa204da4c74908e5e2d",
+    "semantic_hash": "a8b1d800f1473aa204da4c74908e5e2d"
+  },
+  "kryonix/scripts/test-installer-libvirt.sh": {
+    "mtime": 1782178666.8155963,
+    "ast_hash": "169a17e10297b8651b53a7ad90948274",
+    "semantic_hash": "169a17e10297b8651b53a7ad90948274"
+  },
+  "kryonix/scripts/test-iso-boot.sh": {
+    "mtime": 1782178666.8156602,
+    "ast_hash": "eaefeb7f3bc3094e01c4e24faaa05cd1",
+    "semantic_hash": "eaefeb7f3bc3094e01c4e24faaa05cd1"
+  },
+  "kryonix/scripts/test-kryonix-secret-scan.py": {
+    "mtime": 1782178666.8157911,
+    "ast_hash": "b5e5e99561cb1978ebd6171e77733455",
+    "semantic_hash": "b5e5e99561cb1978ebd6171e77733455"
+  },
+  "kryonix/scripts/validate-home-brain-phase3b.sh": {
+    "mtime": 1782178666.8158615,
+    "ast_hash": "e4663dae0892b48e81968b91a66cdf1c",
+    "semantic_hash": "e4663dae0892b48e81968b91a66cdf1c"
+  },
+  "kryonix/scripts/validate-home-brain-phase3c.sh": {
+    "mtime": 1782178666.8159227,
+    "ast_hash": "2298171942af76cbeeaad934c95f4d3a",
+    "semantic_hash": "2298171942af76cbeeaad934c95f4d3a"
+  },
+  "kryonix/scripts/validate-home-brain-phase4a.sh": {
+    "mtime": 1782178666.816012,
+    "ast_hash": "091e437bd89cd3b55df7b452fe0bde2f",
+    "semantic_hash": "091e437bd89cd3b55df7b452fe0bde2f"
+  },
+  "kryonix/skills/yt-to-notebook/scripts/validar_nota.py": {
+    "mtime": 1782178666.8166351,
+    "ast_hash": "137ede4df8a21cc2946a7c8aaef318cb",
+    "semantic_hash": "137ede4df8a21cc2946a7c8aaef318cb"
+  },
+  "kryonix/tests/test_e2e_guest_agent.py": {
+    "mtime": 1782178666.8173776,
+    "ast_hash": "860a2eecc2c95a205aef647cad6b49e8",
+    "semantic_hash": "860a2eecc2c95a205aef647cad6b49e8"
+  },
+  "kryonix/tests/test_e2e_serial.py": {
+    "mtime": 1782178666.817451,
+    "ast_hash": "b7bf5e6dc057b01c22dff5dc2ff9fd52",
+    "semantic_hash": "b7bf5e6dc057b01c22dff5dc2ff9fd52"
+  },
+  "kryonix/tests/test_iso_boot.sh": {
+    "mtime": 1782178666.8175082,
+    "ast_hash": "0d2dc6911143a6a9cb50a1047fb2c5ee",
+    "semantic_hash": "0d2dc6911143a6a9cb50a1047fb2c5ee"
+  },
+  "kryonix/tests/test_qcow2_offline.sh": {
+    "mtime": 1782178666.817567,
+    "ast_hash": "f3d782d7014c8a5d12a11413d02c45a4",
+    "semantic_hash": "f3d782d7014c8a5d12a11413d02c45a4"
+  },
+  "kryonix/windows/komorebi/komorebi.json": {
+    "mtime": 1782178666.8178594,
+    "ast_hash": "886357d89df254925d702ef755325340",
+    "semantic_hash": "886357d89df254925d702ef755325340"
+  },
+  "kryonix/modules/nixos/audio/voice_preview_jenifer.mp3": {
+    "mtime": 1782178666.8053908,
+    "ast_hash": "4841f732860aa58c2d7912d4c752284e",
+    "semantic_hash": "4841f732860aa58c2d7912d4c752284e"
+  },
+  "kryonix-aura/README.md": {
+    "mtime": 1782178692.5030885,
+    "ast_hash": "e8cc2fae6e81813240c619c3674b778c",
+    "semantic_hash": "e8cc2fae6e81813240c619c3674b778c"
+  },
+  "kryonix-brain-lightrag/AGENTS.md": {
+    "mtime": 1782178883.4179854,
+    "ast_hash": "92d4fb1f8609524b3b2b2104bca3e319",
+    "semantic_hash": "92d4fb1f8609524b3b2b2104bca3e319"
+  },
+  "kryonix-brain-lightrag/EXPERIMENTAL_RUST.md": {
+    "mtime": 1782178883.4181209,
+    "ast_hash": "9e02b065eafd6b69d3679877def597fc",
+    "semantic_hash": "9e02b065eafd6b69d3679877def597fc"
+  },
+  "kryonix-brain-lightrag/README.md": {
+    "mtime": 1782178883.418212,
+    "ast_hash": "8582dda3faf23184ef23ae9746dcb6ed",
+    "semantic_hash": "8582dda3faf23184ef23ae9746dcb6ed"
+  },
+  "kryonix-home/README.md": {
+    "mtime": 1782178691.3850904,
+    "ast_hash": "22bc98261573dfe7c80067fa6bf226b3",
+    "semantic_hash": "22bc98261573dfe7c80067fa6bf226b3"
+  },
+  "kryonix-home/docs/PHASE_3B_TAXONOMY.md": {
+    "mtime": 1782178691.3851588,
+    "ast_hash": "415974cacec6fe745350c6adaf4679d8",
+    "semantic_hash": "415974cacec6fe745350c6adaf4679d8"
+  },
+  "kryonix-home/docs/SAFETY_MODEL.md": {
+    "mtime": 1782178691.3852232,
+    "ast_hash": "e701e25c5ad1b896e1dd9a51a3a4ce97",
+    "semantic_hash": "e701e25c5ad1b896e1dd9a51a3a4ce97"
+  },
+  "kryonix-home/docs/TAXONOMY_CONFIG.md": {
+    "mtime": 1782178691.3852232,
+    "ast_hash": "915f69eae6fc61d275227964604e5234",
+    "semantic_hash": "915f69eae6fc61d275227964604e5234"
+  },
+  "kryonix-installer/.github/workflows/ci.yml": {
+    "mtime": 1782178673.6244059,
+    "ast_hash": "c28272b4e6051ec49743ac61fbf276e9",
+    "semantic_hash": "c28272b4e6051ec49743ac61fbf276e9"
+  },
+  "kryonix-installer/README.md": {
+    "mtime": 1782178673.6248314,
+    "ast_hash": "1df82d91f900d411882f785ed6e47673",
+    "semantic_hash": "1df82d91f900d411882f785ed6e47673"
+  },
+  "kryonix-installer/docs/FRONTEND_BACKEND_CONTRACT.md": {
+    "mtime": 1782748787.3887067,
+    "ast_hash": "6a8866504359433ec19e7cd68f1593f5",
+    "semantic_hash": "6a8866504359433ec19e7cd68f1593f5"
+  },
+  "kryonix-installer/docs/audits/KRYONIX_INSTALLER_PHASE2_AUDIT.md": {
+    "mtime": 1782214145.4709742,
+    "ast_hash": "2a10e814e87c6b5aef08f9e7a64d2c50",
+    "semantic_hash": "2a10e814e87c6b5aef08f9e7a64d2c50"
+  },
+  "kryonix-installer/pr-body.md": {
+    "mtime": 1782214145.4712684,
+    "ast_hash": "79516dae39d80c7aeefd159350112cde",
+    "semantic_hash": "79516dae39d80c7aeefd159350112cde"
+  },
+  "kryonix-installer/ui/README.md": {
+    "mtime": 1782178673.6264043,
+    "ast_hash": "6f056d493d397d768e296d99f5540242",
+    "semantic_hash": "6f056d493d397d768e296d99f5540242"
+  },
+  "kryonix-installer/ui/index.html": {
+    "mtime": 1782608050.3048363,
+    "ast_hash": "b895542d6a7d86adac6f6d6e6beec3da",
+    "semantic_hash": "b895542d6a7d86adac6f6d6e6beec3da"
+  },
+  "kryonix-installer/ui/static/index.html": {
+    "mtime": 1782178673.6633391,
+    "ast_hash": "c604a2a7a1a59e358bbf617a0f8c3db6",
+    "semantic_hash": "c604a2a7a1a59e358bbf617a0f8c3db6"
+  },
+  "kryonix/AGENTS.md": {
+    "mtime": 1782212603.6694682,
+    "ast_hash": "fd6be6d3f39a196c349cdeafafb52937",
+    "semantic_hash": "fd6be6d3f39a196c349cdeafafb52937"
+  },
+  "kryonix/CLAUDE.md": {
+    "mtime": 1782178666.700467,
+    "ast_hash": "9b7cb660ecf9d78c3c155b2da848d4af",
+    "semantic_hash": "9b7cb660ecf9d78c3c155b2da848d4af"
+  },
+  "kryonix/CONTRIBUTING.md": {
+    "mtime": 1782178666.700511,
+    "ast_hash": "4539e770a0a677eb4b0482d1b9512b5d",
+    "semantic_hash": "4539e770a0a677eb4b0482d1b9512b5d"
+  },
+  "kryonix/CONTRIBUTING_AGENTS.md": {
+    "mtime": 1782178666.7005575,
+    "ast_hash": "a7b5e0e51aa00eb417f9fe00e71f3443",
+    "semantic_hash": "a7b5e0e51aa00eb417f9fe00e71f3443"
+  },
+  "kryonix/README.md": {
+    "mtime": 1782416284.4727411,
+    "ast_hash": "d555c6afb06174fbc0e1fdecf02fc722",
+    "semantic_hash": "d555c6afb06174fbc0e1fdecf02fc722"
+  },
+  "kryonix/SECURITY.md": {
+    "mtime": 1782178666.7007062,
+    "ast_hash": "1a32b8430aa9695bc8bcb5dff2258f4e",
+    "semantic_hash": "1a32b8430aa9695bc8bcb5dff2258f4e"
+  },
+  "kryonix/docs/CLI.md": {
+    "mtime": 1782178666.7601013,
+    "ast_hash": "0a6079b0345612dfe9469375942005f6",
+    "semantic_hash": "0a6079b0345612dfe9469375942005f6"
+  },
+  "kryonix/docs/CURRENT_STATE.md": {
+    "mtime": 1782178666.7601748,
+    "ast_hash": "46f9911d1bee5d04aa7c7be6b85a20e7",
+    "semantic_hash": "46f9911d1bee5d04aa7c7be6b85a20e7"
+  },
+  "kryonix/docs/FEATURE_REGISTRY.md": {
+    "mtime": 1782415473.907786,
+    "ast_hash": "bea757dee98d0c11e8615b4686c4fa13",
+    "semantic_hash": "bea757dee98d0c11e8615b4686c4fa13"
+  },
+  "kryonix/docs/FIREWALL_FEATURE_AUDIT.md": {
+    "mtime": 1782416841.6189938,
+    "ast_hash": "332f0f2d83ff80f1a72cde8bfb50064c",
+    "semantic_hash": "332f0f2d83ff80f1a72cde8bfb50064c"
+  },
+  "kryonix/docs/INSTALL.md": {
+    "mtime": 1782178666.7602339,
+    "ast_hash": "06a768b28c708afe663bc55a0e908565",
+    "semantic_hash": "06a768b28c708afe663bc55a0e908565"
+  },
+  "kryonix/docs/NETWORK_VIRTUAL_BRIDGES.md": {
+    "mtime": 1782503476.5096483,
+    "ast_hash": "8fb5fded9c7948fa94902d2815c936d1",
+    "semantic_hash": "8fb5fded9c7948fa94902d2815c936d1"
+  },
+  "kryonix/docs/OPERATIONS.md": {
+    "mtime": 1782178666.760289,
+    "ast_hash": "ebe83fdecdede9cc7c23ebbc801c0bf4",
+    "semantic_hash": "ebe83fdecdede9cc7c23ebbc801c0bf4"
+  },
+  "kryonix/docs/ROADMAP.md": {
+    "mtime": 1782178666.7604027,
+    "ast_hash": "a8bdd28fcc7d6b0c8ea3692c03998620",
+    "semantic_hash": "a8bdd28fcc7d6b0c8ea3692c03998620"
+  },
+  "kryonix/docs/TROUBLESHOOTING.md": {
+    "mtime": 1782178666.7606964,
+    "ast_hash": "6aee3fefe9824032a8dffcc6bfe16de8",
+    "semantic_hash": "6aee3fefe9824032a8dffcc6bfe16de8"
+  },
+  "kryonix/docs/USAGE.md": {
+    "mtime": 1782178666.7607543,
+    "ast_hash": "8e1caed8707fc72ebae9460373614c00",
+    "semantic_hash": "8e1caed8707fc72ebae9460373614c00"
+  },
+  "kryonix/docs/VIRTUALIZATION_ROADMAP.md": {
+    "mtime": 1782503476.3886468,
+    "ast_hash": "58171cbdce4a614aa6e4c828ffa6812a",
+    "semantic_hash": "58171cbdce4a614aa6e4c828ffa6812a"
+  },
+  "kryonix/docs/VIRTUAL_BRIDGE_AUDIT.md": {
+    "mtime": 1782503462.8484843,
+    "ast_hash": "77320a9b4df930d4d4a7aa29314b881e",
+    "semantic_hash": "77320a9b4df930d4d4a7aa29314b881e"
+  },
+  "kryonix/docs/VM_DECLARATIVE_DESIGN.md": {
+    "mtime": 1782503476.4586477,
+    "ast_hash": "79aefcb1312af37a9caba6331ea16cb1",
+    "semantic_hash": "79aefcb1312af37a9caba6331ea16cb1"
+  },
+  "kryonix/docs/agents/AGENT_SYSTEM_INVENTORY.md": {
+    "mtime": 1782178666.7608418,
+    "ast_hash": "6d5bb0787c39cedb1b84c64085c6924e",
+    "semantic_hash": "6d5bb0787c39cedb1b84c64085c6924e"
+  },
+  "kryonix/docs/agents/CONTEXT_ARCHITECTURE.md": {
+    "mtime": 1782178666.7609081,
+    "ast_hash": "75444ce119ad6989747fd2489ecf8ee7",
+    "semantic_hash": "75444ce119ad6989747fd2489ecf8ee7"
+  },
+  "kryonix/docs/agents/README.md": {
+    "mtime": 1782178666.7609644,
+    "ast_hash": "8bb1cf3eab1d5563eff88edb7885a890",
+    "semantic_hash": "8bb1cf3eab1d5563eff88edb7885a890"
+  },
+  "kryonix/docs/agents/VIBECODE_GOVERNANCE.md": {
+    "mtime": 1782178666.7610142,
+    "ast_hash": "04e2cf64a7502700db54e6bacf4700fb",
+    "semantic_hash": "04e2cf64a7502700db54e6bacf4700fb"
+  },
+  "kryonix/docs/archive/AGENTS_KRYONIX_EVOLUTION.md": {
+    "mtime": 1782178666.7626207,
+    "ast_hash": "4e9c0302fec121a46df6166710c9b5fa",
+    "semantic_hash": "4e9c0302fec121a46df6166710c9b5fa"
+  },
+  "kryonix/docs/archive/AGENT_SECURITY_INFRA_KRYONIX.md": {
+    "mtime": 1782178666.7627094,
+    "ast_hash": "e72618fc8f46292835d3048d28ac38a0",
+    "semantic_hash": "e72618fc8f46292835d3048d28ac38a0"
+  },
+  "kryonix/docs/archive/AI_SKILL.md": {
+    "mtime": 1782178666.7627554,
+    "ast_hash": "5ff129caa0019baf52fe5f4f36721135",
+    "semantic_hash": "5ff129caa0019baf52fe5f4f36721135"
+  },
+  "kryonix/docs/archive/BOOT_RECOVERY.md": {
+    "mtime": 1782178666.7627916,
+    "ast_hash": "9e8f0e29e2f1e90b0aa4b3aca0c59abf",
+    "semantic_hash": "9e8f0e29e2f1e90b0aa4b3aca0c59abf"
+  },
+  "kryonix/docs/archive/CAELESTIA_MANUAL.md": {
+    "mtime": 1782178666.762843,
+    "ast_hash": "f671652a402f5b233314aca1bcd22111",
+    "semantic_hash": "f671652a402f5b233314aca1bcd22111"
+  },
+  "kryonix/docs/archive/INDEX.md": {
+    "mtime": 1782178666.7628806,
+    "ast_hash": "ae2892e6a109719a3f7d298f1c8ec103",
+    "semantic_hash": "ae2892e6a109719a3f7d298f1c8ec103"
+  },
+  "kryonix/docs/archive/INDEX_DOCUMENTATION.md": {
+    "mtime": 1782178666.7629194,
+    "ast_hash": "2ab06fd5865ead921609ea56afde9c51",
+    "semantic_hash": "2ab06fd5865ead921609ea56afde9c51"
+  },
+  "kryonix/docs/archive/MAKEFILE_GUIDE.md": {
+    "mtime": 1782178666.7629533,
+    "ast_hash": "b84da3aafc21bc483a9d887acdecd1b6",
+    "semantic_hash": "b84da3aafc21bc483a9d887acdecd1b6"
+  },
+  "kryonix/docs/archive/QUICK_START.md": {
+    "mtime": 1782178666.7629874,
+    "ast_hash": "62daf1b0bf2095218e5e750573865113",
+    "semantic_hash": "62daf1b0bf2095218e5e750573865113"
+  },
+  "kryonix/docs/archive/README-en.md": {
+    "mtime": 1782178666.763022,
+    "ast_hash": "ae78d05dded83eb2f8583dcf83b7cffd",
+    "semantic_hash": "ae78d05dded83eb2f8583dcf83b7cffd"
+  },
+  "kryonix/docs/archive/README-pt_BR.md": {
+    "mtime": 1782178666.763052,
+    "ast_hash": "417865773c3e8618e3f25edbc375dd17",
+    "semantic_hash": "417865773c3e8618e3f25edbc375dd17"
+  },
+  "kryonix/docs/archive/STATUS.md": {
+    "mtime": 1782178666.7630844,
+    "ast_hash": "ffb5baa80b01fe51fed9178456b36d81",
+    "semantic_hash": "ffb5baa80b01fe51fed9178456b36d81"
+  },
+  "kryonix/docs/archive/TEST_GUIDE_WAYLAND_SESSION.md": {
+    "mtime": 1782178666.7632043,
+    "ast_hash": "8b97ef4aad624bc2b7161683fd0e24c3",
+    "semantic_hash": "8b97ef4aad624bc2b7161683fd0e24c3"
+  },
+  "kryonix/docs/archive/TRAE_MANUAL_INSTALL.md": {
+    "mtime": 1782178666.7632456,
+    "ast_hash": "4067dfc9fba5f7189ba5f59870f4a10a",
+    "semantic_hash": "4067dfc9fba5f7189ba5f59870f4a10a"
+  },
+  "kryonix/docs/archive/agente-kalarme.md": {
+    "mtime": 1782178666.7632837,
+    "ast_hash": "cf28def45ce052eca732b52d60a919dc",
+    "semantic_hash": "cf28def45ce052eca732b52d60a919dc"
+  },
+  "kryonix/docs/archive/fix/black-screen-recovery.md": {
+    "mtime": 1782178666.7652028,
+    "ast_hash": "e780b066edfe5529566713362aa0592f",
+    "semantic_hash": "e780b066edfe5529566713362aa0592f"
+  },
+  "kryonix/docs/archive/fix/display-manager-hyprland.md": {
+    "mtime": 1782178666.7652683,
+    "ast_hash": "5cf849e7af62c1af2f3ee8a99f3b77fc",
+    "semantic_hash": "5cf849e7af62c1af2f3ee8a99f3b77fc"
+  },
+  "kryonix/docs/archive/fix/mkforce-conflicts.md": {
+    "mtime": 1782178666.7653296,
+    "ast_hash": "7f384ea1e8b9c8105a10675932277ffe",
+    "semantic_hash": "7f384ea1e8b9c8105a10675932277ffe"
+  },
+  "kryonix/docs/archive/games/hogwarts-legacy-heroic-pt_BR.md": {
+    "mtime": 1782178666.76539,
+    "ast_hash": "fbe7698fdb40c93c391fcb02eadd0225",
+    "semantic_hash": "fbe7698fdb40c93c391fcb02eadd0225"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/00_PROMPT_CLAUDE.md": {
+    "mtime": 1782178666.765507,
+    "ast_hash": "2f1b098c53c7f16a72fdbb21972fdbf0",
+    "semantic_hash": "2f1b098c53c7f16a72fdbb21972fdbf0"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/01_PROJECT_CONTEXT.md": {
+    "mtime": 1782178666.765585,
+    "ast_hash": "19585a2ee6d46292ea0a6d2885564048",
+    "semantic_hash": "19585a2ee6d46292ea0a6d2885564048"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/02_DESKTOP_SPEC.md": {
+    "mtime": 1782178666.7656841,
+    "ast_hash": "457cd44d2c7c0052ae9fb6599f4fc092",
+    "semantic_hash": "457cd44d2c7c0052ae9fb6599f4fc092"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/03_THEME_AND_BAR_SPEC.md": {
+    "mtime": 1782178666.7657459,
+    "ast_hash": "63e01dc87fd662ea3e0e38a8ee012e86",
+    "semantic_hash": "63e01dc87fd662ea3e0e38a8ee012e86"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/04_WINDOWS_TILING_SPEC.md": {
+    "mtime": 1782178666.7658017,
+    "ast_hash": "6936a4e0b1568974d2eda0d169df5e22",
+    "semantic_hash": "6936a4e0b1568974d2eda0d169df5e22"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/05_IMPLEMENTATION_PLAN.md": {
+    "mtime": 1782178666.7658596,
+    "ast_hash": "4d78e2cef24314c280f74d0cac0e0e08",
+    "semantic_hash": "4d78e2cef24314c280f74d0cac0e0e08"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/06_VALIDATION_AND_ROLLBACK.md": {
+    "mtime": 1782178666.7659147,
+    "ast_hash": "44a1ff4e4efec5d7dde0d6dcdbf17a92",
+    "semantic_hash": "44a1ff4e4efec5d7dde0d6dcdbf17a92"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/07_ACCEPTANCE_CRITERIA.md": {
+    "mtime": 1782178666.7659678,
+    "ast_hash": "9d3d384d85817d0033ee9de834e8b29a",
+    "semantic_hash": "9d3d384d85817d0033ee9de834e8b29a"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/08_AGENT_REPORT_TEMPLATE.md": {
+    "mtime": 1782178666.7659678,
+    "ast_hash": "dd8ef19c0e7f63ae61b82fef0ae8c905",
+    "semantic_hash": "dd8ef19c0e7f63ae61b82fef0ae8c905"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/README.md": {
+    "mtime": 1782178666.7660582,
+    "ast_hash": "d27156bfa91ef701ca0d3287023a9f75",
+    "semantic_hash": "d27156bfa91ef701ca0d3287023a9f75"
+  },
+  "kryonix/docs/archive/kryonix-plasma-tiling-claude-spec/templates/windows/glazewm-config.yaml": {
+    "mtime": 1782178666.7664583,
+    "ast_hash": "3c64bdeb5b73c8669618ed0385751794",
+    "semantic_hash": "3c64bdeb5b73c8669618ed0385751794"
+  },
+  "kryonix/docs/archive/legacy/archive-2026-04-28/AI_MAINTAINER_REPORT.md": {
+    "mtime": 1782178666.7666693,
+    "ast_hash": "fb412000b437b779706a8edf202ea258",
+    "semantic_hash": "fb412000b437b779706a8edf202ea258"
+  },
+  "kryonix/docs/archive/legacy/archive-2026-04-28/ARCHITECTURE_AUDIT.md": {
+    "mtime": 1782178666.7667766,
+    "ast_hash": "5c53a47ad485601f3b43397bcf72f522",
+    "semantic_hash": "5c53a47ad485601f3b43397bcf72f522"
+  },
+  "kryonix/docs/archive/legacy/archive-2026-04-28/BUGFIX_DUPLICATIONS.md": {
+    "mtime": 1782178666.7668574,
+    "ast_hash": "266342835ff925ffa6c3962723c65bb5",
+    "semantic_hash": "266342835ff925ffa6c3962723c65bb5"
+  },
+  "kryonix/docs/archive/legacy/archive-2026-04-28/BUGFIX_INFINITE_RECURSION.md": {
+    "mtime": 1782178666.7669063,
+    "ast_hash": "da0c9f5b3dac140234f5295bc2cd889a",
+    "semantic_hash": "da0c9f5b3dac140234f5295bc2cd889a"
+  },
+  "kryonix/docs/archive/legacy/archive-2026-04-28/FINAL_CONSOLIDATION_REPORT.md": {
+    "mtime": 1782178666.7669537,
+    "ast_hash": "87d80d6b3d4f4ff9d16858934cfdc46e",
+    "semantic_hash": "87d80d6b3d4f4ff9d16858934cfdc46e"
+  },
+  "kryonix/docs/archive/legacy/archive-2026-04-28/INSPIRON_NINA_APPLY.md": {
+    "mtime": 1782178666.766998,
+    "ast_hash": "047738dbd5c1b388c518153131cbc0b5",
+    "semantic_hash": "047738dbd5c1b388c518153131cbc0b5"
+  },
+  "kryonix/docs/archive/legacy/archive-2026-04-28/INSTRUCT.md": {
+    "mtime": 1782178666.7670457,
+    "ast_hash": "3c8981b6f5be72a480b3c1a89a29b9bf",
+    "semantic_hash": "3c8981b6f5be72a480b3c1a89a29b9bf"
+  },
+  "kryonix/docs/archive/legacy/archive-2026-04-28/RAGOS_VE.md": {
+    "mtime": 1782178666.7671244,
+    "ast_hash": "2afa666864d18d1de6ff59d5ac7c08bf",
+    "semantic_hash": "2afa666864d18d1de6ff59d5ac7c08bf"
+  },
+  "kryonix/docs/archive/legacy/archive-2026-04-28/migration-bart-theme.md": {
+    "mtime": 1782178666.7671623,
+    "ast_hash": "073efd5e7368c499ecee2a3de44a4fcb",
+    "semantic_hash": "073efd5e7368c499ecee2a3de44a4fcb"
+  },
+  "kryonix/docs/archive/legacy/greetd/AUDIT_LOGIND_SESSION.md": {
+    "mtime": 1782178666.7672558,
+    "ast_hash": "45b4c60267ce04f219d6765bfad4706c",
+    "semantic_hash": "45b4c60267ce04f219d6765bfad4706c"
+  },
+  "kryonix/docs/archive/legacy/greetd/GREETD_FINAL_SOLUTION.md": {
+    "mtime": 1782178666.7673314,
+    "ast_hash": "421e37bc1620a8679ecc918c8a393297",
+    "semantic_hash": "421e37bc1620a8679ecc918c8a393297"
+  },
+  "kryonix/docs/archive/legacy/greetd/QUICK_START_GREETD.md": {
+    "mtime": 1782178666.7674055,
+    "ast_hash": "6921ee2075dd220affb58423ab7fd65c",
+    "semantic_hash": "6921ee2075dd220affb58423ab7fd65c"
+  },
+  "kryonix/docs/archive/legacy/greetd/README_SOLUCAO_GREETD.md": {
+    "mtime": 1782178666.767464,
+    "ast_hash": "4602c906d6ae92075fbf5c00b4db7354",
+    "semantic_hash": "4602c906d6ae92075fbf5c00b4db7354"
+  },
+  "kryonix/docs/archive/legacy/greetd/SOLUTION_LOGIND_WAYLAND.md": {
+    "mtime": 1782178666.767533,
+    "ast_hash": "b7b7c661e8b310a72a954a5f862cbf47",
+    "semantic_hash": "b7b7c661e8b310a72a954a5f862cbf47"
+  },
+  "kryonix/docs/archive/legacy/greetd/SOLUTION_SUMMARY.md": {
+    "mtime": 1782178666.767611,
+    "ast_hash": "7e4dfa29a3c1c6425e0ae7a4e5f34f7e",
+    "semantic_hash": "7e4dfa29a3c1c6425e0ae7a4e5f34f7e"
+  },
+  "kryonix/docs/archive/legacy/history/PHASE_1_COMPLETE.md": {
+    "mtime": 1782178666.7677116,
+    "ast_hash": "e9da2495ccb92d6eb491ee2be6bb2331",
+    "semantic_hash": "e9da2495ccb92d6eb491ee2be6bb2331"
+  },
+  "kryonix/docs/archive/legacy/history/STEP_1.1-1.3_COMPLETE.md": {
+    "mtime": 1782178666.7677813,
+    "ast_hash": "f8b721452db31e0655ff234b6a06282a",
+    "semantic_hash": "f8b721452db31e0655ff234b6a06282a"
+  },
+  "kryonix/docs/archive/legacy/history/STEP_2.1-2.2_COMPLETE.md": {
+    "mtime": 1782178666.767848,
+    "ast_hash": "da3430b23f53c35637d02a84d8e51292",
+    "semantic_hash": "da3430b23f53c35637d02a84d8e51292"
+  },
+  "kryonix/docs/archive/legacy/history/STEP_2.3_COMPLETE.md": {
+    "mtime": 1782178666.7679121,
+    "ast_hash": "dd2ded8abc7319f27dcaaadd7ff593dd",
+    "semantic_hash": "dd2ded8abc7319f27dcaaadd7ff593dd"
+  },
+  "kryonix/docs/archive/legacy/history/STEP_3.1_COMPLETE.md": {
+    "mtime": 1782178666.767985,
+    "ast_hash": "64f561084ab95cf573494a5e5e4adbf4",
+    "semantic_hash": "64f561084ab95cf573494a5e5e4adbf4"
+  },
+  "kryonix/docs/archive/legacy/history/STEP_5.1-5.2_COMPLETE.md": {
+    "mtime": 1782178666.7681115,
+    "ast_hash": "2d1bdad9910c121a33a8bfe6c9fdbad3",
+    "semantic_hash": "2d1bdad9910c121a33a8bfe6c9fdbad3"
+  },
+  "kryonix/docs/archive/legacy/history/STEP_6_COMPLETE.md": {
+    "mtime": 1782178666.7681901,
+    "ast_hash": "67e21439f800a94930cd8836a7389c1e",
+    "semantic_hash": "67e21439f800a94930cd8836a7389c1e"
+  },
+  "kryonix/docs/archive/legacy/migration/MIGRATION_CHECKLIST.md": {
+    "mtime": 1782178666.7683556,
+    "ast_hash": "1e369f665af6e8fc8827567844367f46",
+    "semantic_hash": "1e369f665af6e8fc8827567844367f46"
+  },
+  "kryonix/docs/archive/legacy/migration/MIGRATION_GUIDE_v1_v2.md": {
+    "mtime": 1782178666.768425,
+    "ast_hash": "d64a3d729b79b78359c6c74ad08777c6",
+    "semantic_hash": "d64a3d729b79b78359c6c74ad08777c6"
+  },
+  "kryonix/docs/archive/legacy/migration/NEW_STRUCTURE.md": {
+    "mtime": 1782178666.7685213,
+    "ast_hash": "26862114fb9b4176a3c01c53ab5a16fd",
+    "semantic_hash": "26862114fb9b4176a3c01c53ab5a16fd"
+  },
+  "kryonix/docs/archive/legacy_agents/context/ACTIVE_WORK.md": {
+    "mtime": 1782178666.7687333,
+    "ast_hash": "f43386206b469cde87f1aec4cbfbe24e",
+    "semantic_hash": "f43386206b469cde87f1aec4cbfbe24e"
+  },
+  "kryonix/docs/archive/legacy_agents/context/CONSTRAINTS.md": {
+    "mtime": 1782178666.7687333,
+    "ast_hash": "caffaae63e9a917de46ab182e0e2cf8f",
+    "semantic_hash": "caffaae63e9a917de46ab182e0e2cf8f"
+  },
+  "kryonix/docs/archive/legacy_agents/context/CURRENT_STATE.md": {
+    "mtime": 1782178666.7688475,
+    "ast_hash": "a9843019dbcf2973e0211e7fff5ebe26",
+    "semantic_hash": "a9843019dbcf2973e0211e7fff5ebe26"
+  },
+  "kryonix/docs/archive/legacy_agents/context/DECISIONS.md": {
+    "mtime": 1782178666.7689104,
+    "ast_hash": "a232e8868403661854ca225d8e267e3f",
+    "semantic_hash": "a232e8868403661854ca225d8e267e3f"
+  },
+  "kryonix/docs/archive/legacy_agents/context/README.md": {
+    "mtime": 1782178666.7689104,
+    "ast_hash": "44b8877db16315e5782eedd4ad91020c",
+    "semantic_hash": "44b8877db16315e5782eedd4ad91020c"
+  },
+  "kryonix/docs/archive/legacy_agents/context/REPO_MAP.md": {
+    "mtime": 1782178666.7690227,
+    "ast_hash": "874c8e0cafef3e8e5ead9bf34f25e3c0",
+    "semantic_hash": "874c8e0cafef3e8e5ead9bf34f25e3c0"
+  },
+  "kryonix/docs/archive/legacy_ai/CHECKPOINTS.md": {
+    "mtime": 1782178666.769111,
+    "ast_hash": "9010f26d3afd0797dbc61da3789f1206",
+    "semantic_hash": "9010f26d3afd0797dbc61da3789f1206"
+  },
+  "kryonix/docs/archive/legacy_ai/INDEX.md": {
+    "mtime": 1782178666.7691615,
+    "ast_hash": "49b6b5daf71ecb6c6e16eaccff998b52",
+    "semantic_hash": "49b6b5daf71ecb6c6e16eaccff998b52"
+  },
+  "kryonix/docs/archive/legacy_ai/KRYONIX_CONTEXT_MEMORY_FULL.md": {
+    "mtime": 1782178666.7692194,
+    "ast_hash": "76297e7a4a6637c8d2754e1c6033350f",
+    "semantic_hash": "76297e7a4a6637c8d2754e1c6033350f"
+  },
+  "kryonix/docs/archive/legacy_ai/LOCAL_LLM_STRATEGY.md": {
+    "mtime": 1782178666.7693686,
+    "ast_hash": "c9e433eca93c6d429693827663338c50",
+    "semantic_hash": "c9e433eca93c6d429693827663338c50"
+  },
+  "kryonix/docs/archive/legacy_ai/RAG_GOVERNANCE.md": {
+    "mtime": 1782178666.7694297,
+    "ast_hash": "f66aa0421c23936f8c18d687678f3da7",
+    "semantic_hash": "f66aa0421c23936f8c18d687678f3da7"
+  },
+  "kryonix/docs/archive/legacy_ai/README.md": {
+    "mtime": 1782178666.7694888,
+    "ast_hash": "1db9c51e60d8e22e386cc4315168ace1",
+    "semantic_hash": "1db9c51e60d8e22e386cc4315168ace1"
+  },
+  "kryonix/docs/archive/legacy_ai/STATE.md": {
+    "mtime": 1782178666.7695448,
+    "ast_hash": "ca6a93a3c994d746cc5364ecb87b756a",
+    "semantic_hash": "ca6a93a3c994d746cc5364ecb87b756a"
+  },
+  "kryonix/docs/archive/legacy_ai/evals/brain_questions.yaml": {
+    "mtime": 1782178666.7696187,
+    "ast_hash": "10f7904fa67783729efd4e08b87993b0",
+    "semantic_hash": "10f7904fa67783729efd4e08b87993b0"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/03-Runbooks/Doctor Full.md": {
+    "mtime": 1782178666.778333,
+    "ast_hash": "d837138db028bbf1dea74e8b654ac6ec",
+    "semantic_hash": "d837138db028bbf1dea74e8b654ac6ec"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/04-Recursos/Templates/Template - ADR.md": {
+    "mtime": 1782178666.7784014,
+    "ast_hash": "542e00c423fe0d691760b1b3f0f1abfa",
+    "semantic_hash": "542e00c423fe0d691760b1b3f0f1abfa"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/04-Recursos/Templates/Template - Issue Codex.md": {
+    "mtime": 1782178666.7784588,
+    "ast_hash": "0fd8babbb3242aabf474939474426ad1",
+    "semantic_hash": "0fd8babbb3242aabf474939474426ad1"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/04-Recursos/Templates/Template - Nota Tecnica.md": {
+    "mtime": 1782178666.7784588,
+    "ast_hash": "f2e6f8e179966621d5bcdc49bd79d338",
+    "semantic_hash": "f2e6f8e179966621d5bcdc49bd79d338"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/04-Recursos/Templates/Template - Projeto.md": {
+    "mtime": 1782178666.7784588,
+    "ast_hash": "3ce6b08056fac7c13b12d944eb15ae8d",
+    "semantic_hash": "3ce6b08056fac7c13b12d944eb15ae8d"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Evidence/README.md": {
+    "mtime": 1782178666.7784588,
+    "ast_hash": "8d33f2f1fff0c7c5344010e903973f67",
+    "semantic_hash": "8d33f2f1fff0c7c5344010e903973f67"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/analise-banco-dados/SKILL.md": {
+    "mtime": 1782178666.778651,
+    "ast_hash": "15e67b167f6cae5e7da204b5561c72da",
+    "semantic_hash": "15e67b167f6cae5e7da204b5561c72da"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/analise-custo-ia/SKILL.md": {
+    "mtime": 1782178666.778719,
+    "ast_hash": "9a9b58e76040e8d4caa6854e572f50c1",
+    "semantic_hash": "9a9b58e76040e8d4caa6854e572f50c1"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/analise-logs/SKILL.md": {
+    "mtime": 1782178666.7787936,
+    "ast_hash": "f5ba95f2cdc7579f38320129bf25c258",
+    "semantic_hash": "f5ba95f2cdc7579f38320129bf25c258"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/analise-performance/SKILL.md": {
+    "mtime": 1782178666.7788882,
+    "ast_hash": "e7fed309cb25acf6e846df52f86e3e3d",
+    "semantic_hash": "e7fed309cb25acf6e846df52f86e3e3d"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/arquitetura-backend/SKILL.md": {
+    "mtime": 1782178666.7789555,
+    "ast_hash": "0c7be1be46e12a03b9db65509f056f5a",
+    "semantic_hash": "0c7be1be46e12a03b9db65509f056f5a"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/auditoria-secrets/SKILL.md": {
+    "mtime": 1782178666.7789555,
+    "ast_hash": "80eddbcaf7c63241763c4e0f12730a49",
+    "semantic_hash": "80eddbcaf7c63241763c4e0f12730a49"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/debug-producao/SKILL.md": {
+    "mtime": 1782178666.7791104,
+    "ast_hash": "c0f444cf61d07d7a8232679b3adf57e8",
+    "semantic_hash": "c0f444cf61d07d7a8232679b3adf57e8"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/decomposicao-codex/SKILL.md": {
+    "mtime": 1782178666.779182,
+    "ast_hash": "59d82dc27608e1d0f14f35bb52b5177d",
+    "semantic_hash": "59d82dc27608e1d0f14f35bb52b5177d"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/design-estrutura-dados/SKILL.md": {
+    "mtime": 1782178666.779261,
+    "ast_hash": "3b67026067706cedd5563c45bd56d9de",
+    "semantic_hash": "3b67026067706cedd5563c45bd56d9de"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/documentacao-tecnica/SKILL.md": {
+    "mtime": 1782178666.779261,
+    "ast_hash": "1aa0bf319e62b26e713cf370cbb0a7e5",
+    "semantic_hash": "1aa0bf319e62b26e713cf370cbb0a7e5"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/estudo-guiado/SKILL.md": {
+    "mtime": 1782178666.7794094,
+    "ast_hash": "63b16f82b76ab7af156c892039f085a9",
+    "semantic_hash": "63b16f82b76ab7af156c892039f085a9"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/geracao-api/SKILL.md": {
+    "mtime": 1782178666.7794762,
+    "ast_hash": "dc91f1934207a3eb39d02566cbdd26fd",
+    "semantic_hash": "dc91f1934207a3eb39d02566cbdd26fd"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/geracao-testes/SKILL.md": {
+    "mtime": 1782178666.7795513,
+    "ast_hash": "c36fcb802f2f73a95d49bc35656e3613",
+    "semantic_hash": "c36fcb802f2f73a95d49bc35656e3613"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/hardening-nixos/SKILL.md": {
+    "mtime": 1782178666.7796314,
+    "ast_hash": "430f1494bd3a8826333ddeba88c52114",
+    "semantic_hash": "430f1494bd3a8826333ddeba88c52114"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/planejamento-mvp/SKILL.md": {
+    "mtime": 1782178666.7797005,
+    "ast_hash": "0c8137d4580a31183f78bbaefa0178b7",
+    "semantic_hash": "0c8137d4580a31183f78bbaefa0178b7"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/refatoracao-segura/SKILL.md": {
+    "mtime": 1782178666.7797756,
+    "ast_hash": "3012ce806aff94e7f83934852ed7ef53",
+    "semantic_hash": "3012ce806aff94e7f83934852ed7ef53"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/revisao-ci-cd/SKILL.md": {
+    "mtime": 1782178666.7798462,
+    "ast_hash": "34fbe3bf7a0b4c1841541bccd2b1b0a8",
+    "semantic_hash": "34fbe3bf7a0b4c1841541bccd2b1b0a8"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/revisao-clean-code/SKILL.md": {
+    "mtime": 1782178666.7799153,
+    "ast_hash": "f271cf742e69bc2315fcab937449c6b5",
+    "semantic_hash": "f271cf742e69bc2315fcab937449c6b5"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/revisao-pr/SKILL.md": {
+    "mtime": 1782178666.7800314,
+    "ast_hash": "41052a3ac039d35062540fd3ff2466dd",
+    "semantic_hash": "41052a3ac039d35062540fd3ff2466dd"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/05-Skills/revisao-seguranca-api/SKILL.md": {
+    "mtime": 1782178666.780122,
+    "ast_hash": "0660ed2d2c49d811abaa3eeb5cca803e",
+    "semantic_hash": "0660ed2d2c49d811abaa3eeb5cca803e"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Analise de Logs.md": {
+    "mtime": 1782178666.780194,
+    "ast_hash": "c56b3ed44051cb4f468b35f57d16d5f3",
+    "semantic_hash": "c56b3ed44051cb4f468b35f57d16d5f3"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Configurar Repo para Codex.md": {
+    "mtime": 1782178666.780247,
+    "ast_hash": "9780942e36ab2949f8f85a8408eb44bf",
+    "semantic_hash": "9780942e36ab2949f8f85a8408eb44bf"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Criar Backend API Vendavel.md": {
+    "mtime": 1782178666.780247,
+    "ast_hash": "473bd849b44369d2109591d8c3d1bdbe",
+    "semantic_hash": "473bd849b44369d2109591d8c3d1bdbe"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Criar Issue para Codex.md": {
+    "mtime": 1782178666.780247,
+    "ast_hash": "aad6af38fb036f83965f66d9085bee15",
+    "semantic_hash": "aad6af38fb036f83965f66d9085bee15"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Criar Projeto Novo.md": {
+    "mtime": 1782178666.780247,
+    "ast_hash": "4c229916d5d88245f6e10767a831c7c2",
+    "semantic_hash": "4c229916d5d88245f6e10767a831c7c2"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Debug de Producao.md": {
+    "mtime": 1782178666.780247,
+    "ast_hash": "080ee3ff82fa32339de6e0e73ec2fab6",
+    "semantic_hash": "080ee3ff82fa32339de6e0e73ec2fab6"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Reduzir Custo de IA.md": {
+    "mtime": 1782178666.780247,
+    "ast_hash": "66f14068a9fde5be7c027d22d751f806",
+    "semantic_hash": "66f14068a9fde5be7c027d22d751f806"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Refatorar Sem Quebrar.md": {
+    "mtime": 1782178666.7806456,
+    "ast_hash": "4a390e7a443e311aff9fd1b80a6c26fb",
+    "semantic_hash": "4a390e7a443e311aff9fd1b80a6c26fb"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Revisar Codigo Gerado por IA.md": {
+    "mtime": 1782178666.7806456,
+    "ast_hash": "b3f155ecc35151b835064c8327ff1fac",
+    "semantic_hash": "b3f155ecc35151b835064c8327ff1fac"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Transformar Ideia em MVP.md": {
+    "mtime": 1782178666.7806456,
+    "ast_hash": "e15770602918325c2ce48d7d0a8b46b9",
+    "semantic_hash": "e15770602918325c2ce48d7d0a8b46b9"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/06-Playbooks/Playbook - Validar Seguranca Antes do Deploy.md": {
+    "mtime": 1782178666.7807782,
+    "ast_hash": "4d42bd1974216b184ae39ac977b2061b",
+    "semantic_hash": "4d42bd1974216b184ae39ac977b2061b"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/PROMPT_AGENT_BACKEND_API.md": {
+    "mtime": 1782178666.780872,
+    "ast_hash": "6af89ba04a7b4e218ec01b8537cd75d4",
+    "semantic_hash": "6af89ba04a7b4e218ec01b8537cd75d4"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/PROMPT_AGENT_INFRA_LINUX.md": {
+    "mtime": 1782178666.7809258,
+    "ast_hash": "ce648144557d4be01377f7cdbd253a57",
+    "semantic_hash": "ce648144557d4be01377f7cdbd253a57"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/PROMPT_AGENT_SITE_MODERNO.md": {
+    "mtime": 1782178666.7810147,
+    "ast_hash": "118ef1dae5db8d2ff56dc955008f77cf",
+    "semantic_hash": "118ef1dae5db8d2ff56dc955008f77cf"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/PROMPT_IA_CONSUMIR_OBSIDIAN.md": {
+    "mtime": 1782178666.7810705,
+    "ast_hash": "c49a49759f79c852e89e27c9403c2ce7",
+    "semantic_hash": "c49a49759f79c852e89e27c9403c2ce7"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/PROMPT_SUPREMO_DEEP_RESEARCH.md": {
+    "mtime": 1782178666.7811403,
+    "ast_hash": "bf195f8227250fe8e67c618a458ea168",
+    "semantic_hash": "bf195f8227250fe8e67c618a458ea168"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/Prompt - Arquitetura de Sistema.md": {
+    "mtime": 1782178666.7811403,
+    "ast_hash": "10886d61ea1e54a38f787b1bdd960332",
+    "semantic_hash": "10886d61ea1e54a38f787b1bdd960332"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/Prompt - Auditoria de Custo de IA.md": {
+    "mtime": 1782178666.7812278,
+    "ast_hash": "1d4892dff9b61e8a340227f7d827fb99",
+    "semantic_hash": "1d4892dff9b61e8a340227f7d827fb99"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/Prompt - Criacao de Flake.md": {
+    "mtime": 1782178666.7812805,
+    "ast_hash": "859c4bf0231a1ffcf27a826a677ff477",
+    "semantic_hash": "859c4bf0231a1ffcf27a826a677ff477"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/Prompt - Debug de Producao.md": {
+    "mtime": 1782178666.781333,
+    "ast_hash": "3563097dc0b3d195ecaa78e46b8f6588",
+    "semantic_hash": "3563097dc0b3d195ecaa78e46b8f6588"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/Prompt - Issue para Codex.md": {
+    "mtime": 1782178666.7813854,
+    "ast_hash": "caec162c1531160f7b801cab578599f5",
+    "semantic_hash": "caec162c1531160f7b801cab578599f5"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/Prompt - Pesquisa Tecnica Profunda.md": {
+    "mtime": 1782178666.7813854,
+    "ast_hash": "69125727a2efcd491ef0f04ba092589c",
+    "semantic_hash": "69125727a2efcd491ef0f04ba092589c"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/Prompt - Revisao NixOS.md": {
+    "mtime": 1782178666.7815063,
+    "ast_hash": "1545274a96c22007c3efb247611d78b2",
+    "semantic_hash": "1545274a96c22007c3efb247611d78b2"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/Prompt - Revisao de Codigo.md": {
+    "mtime": 1782178666.781559,
+    "ast_hash": "a4450fcca5bbc3bcf76698e8393164cb",
+    "semantic_hash": "a4450fcca5bbc3bcf76698e8393164cb"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/07-Prompts/Prompt - Revisao de Seguranca.md": {
+    "mtime": 1782178666.781622,
+    "ast_hash": "24afcc538f0b55b3d22732baec563a34",
+    "semantic_hash": "24afcc538f0b55b3d22732baec563a34"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/08-Referencias/Checklist de Avaliacao de Codigo Externo.md": {
+    "mtime": 1782178666.781714,
+    "ast_hash": "fe84f852256a987a82d4e9434f3369d4",
+    "semantic_hash": "fe84f852256a987a82d4e9434f3369d4"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/08-Referencias/Fontes Oficiais.md": {
+    "mtime": 1782178666.7817798,
+    "ast_hash": "ef918a1274e754425fdcc469a4eac7f6",
+    "semantic_hash": "ef918a1274e754425fdcc469a4eac7f6"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/08-Referencias/Politica de Curadoria de Fontes e Codigo.md": {
+    "mtime": 1782178666.781865,
+    "ast_hash": "fbd1a4c0f8008773235252cdec67dde5",
+    "semantic_hash": "fbd1a4c0f8008773235252cdec67dde5"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/08-Referencias/Radar de Documentacao Engenharia.md": {
+    "mtime": 1782178666.7819312,
+    "ast_hash": "63d7bbf76b4561669aca1fd72327ee42",
+    "semantic_hash": "63d7bbf76b4561669aca1fd72327ee42"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/09-Logs/Backlog de Estudos.md": {
+    "mtime": 1782178666.781989,
+    "ast_hash": "06be6d4aacae2e70683fb6d3f6bae9cd",
+    "semantic_hash": "06be6d4aacae2e70683fb6d3f6bae9cd"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/09-Logs/Decisoes Recentes.md": {
+    "mtime": 1782178666.7820396,
+    "ast_hash": "fb2019dbba2eafa36c0084bc36d74568",
+    "semantic_hash": "fb2019dbba2eafa36c0084bc36d74568"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/09-Logs/Revisao Semanal.md": {
+    "mtime": 1782178666.7820396,
+    "ast_hash": "defbbc41788ce57b2f2f3d23db07859b",
+    "semantic_hash": "defbbc41788ce57b2f2f3d23db07859b"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/90-Archive/AGENTS_LEGACY.md": {
+    "mtime": 1782178666.7821693,
+    "ast_hash": "af410ec174bbc066f1defb80da69e194",
+    "semantic_hash": "af410ec174bbc066f1defb80da69e194"
+  },
+  "kryonix/docs/archive/legacy_ai/kryonix-vault/90-Archive/VAULT_INDEX_LEGACY.md": {
+    "mtime": 1782178666.7822528,
+    "ast_hash": "2748c306f3efd5b74304120aeea2d8f5",
+    "semantic_hash": "2748c306f3efd5b74304120aeea2d8f5"
+  },
+  "kryonix/docs/archive/legacy_ai/prompts/2026-neo4j-rag-cag-hardening.md": {
+    "mtime": 1782178666.7828617,
+    "ast_hash": "d28bc1f26014e07390c784a8066a224e",
+    "semantic_hash": "d28bc1f26014e07390c784a8066a224e"
+  },
+  "kryonix/docs/archive/legacy_ai/prompts/README.md": {
+    "mtime": 1782178666.7829156,
+    "ast_hash": "047d20d9633f29414695f7779322e957",
+    "semantic_hash": "047d20d9633f29414695f7779322e957"
+  },
+  "kryonix/docs/archive/legacy_ai/prompts/codex-deep-refactor.md": {
+    "mtime": 1782178666.7829156,
+    "ast_hash": "359ae78a951b1428f0d13dcdefca22c4",
+    "semantic_hash": "359ae78a951b1428f0d13dcdefca22c4"
+  },
+  "kryonix/docs/archive/legacy_ai/prompts/codex-glacier.md": {
+    "mtime": 1782178666.7829156,
+    "ast_hash": "23323d73a0505e3c522312ecd8a16010",
+    "semantic_hash": "23323d73a0505e3c522312ecd8a16010"
+  },
+  "kryonix/docs/archive/legacy_ai/prompts/copilot-core.md": {
+    "mtime": 1782178666.7829156,
+    "ast_hash": "51fd1f910207d5be0cf85ac48bfaf43e",
+    "semantic_hash": "51fd1f910207d5be0cf85ac48bfaf43e"
+  },
+  "kryonix/docs/archive/legacy_ai/prompts/copilot-kryonix-cli.md": {
+    "mtime": 1782178666.783164,
+    "ast_hash": "6d420189f3e593b2b40ea29ecc2fa7b9",
+    "semantic_hash": "6d420189f3e593b2b40ea29ecc2fa7b9"
+  },
+  "kryonix/docs/cli/KRYONIX_COMMAND_CONTRACT.md": {
+    "mtime": 1782178666.7871833,
+    "ast_hash": "6f8b47e17f13bb214e36dea64c09a7c2",
+    "semantic_hash": "6f8b47e17f13bb214e36dea64c09a7c2"
+  },
+  "kryonix/docs/cli/README.md": {
+    "mtime": 1782178666.7872477,
+    "ast_hash": "914379de5ebf0b5b61d7b5ee95d1e197",
+    "semantic_hash": "914379de5ebf0b5b61d7b5ee95d1e197"
+  },
+  "kryonix/docs/desktop/KDE_PLASMA.md": {
+    "mtime": 1782475042.1792789,
+    "ast_hash": "7331db8db2372d51670a444a2866f8d0",
+    "semantic_hash": "7331db8db2372d51670a444a2866f8d0"
+  },
+  "kryonix/docs/desktop/KRYONIX_AURORA_SHELL.md": {
+    "mtime": 1782178666.7873979,
+    "ast_hash": "c6cbf8f2ade83864cad40b0b3816a335",
+    "semantic_hash": "c6cbf8f2ade83864cad40b0b3816a335"
+  },
+  "kryonix/docs/desktop/KRYONIX_BLUE_GLASS.md": {
+    "mtime": 1782477627.2542005,
+    "ast_hash": "52bc4396824a8a28a60785e68d9dafe6",
+    "semantic_hash": "52bc4396824a8a28a60785e68d9dafe6"
+  },
+  "kryonix/docs/desktop/KRYONIX_BRANDING.md": {
+    "mtime": 1782477627.2542005,
+    "ast_hash": "738e5c968dd8a0f0f055853b757f38b9",
+    "semantic_hash": "738e5c968dd8a0f0f055853b757f38b9"
+  },
+  "kryonix/docs/desktop/KRYONIX_SDDM.md": {
+    "mtime": 1782178666.7878351,
+    "ast_hash": "b30f7988bdd3814dfe1f4051ffcc1f54",
+    "semantic_hash": "b30f7988bdd3814dfe1f4051ffcc1f54"
+  },
+  "kryonix/docs/desktop/KRYONIX_SDDM_CLEAN.md": {
+    "mtime": 1782477627.2552004,
+    "ast_hash": "1d73bc489fa48f1d7ab5c992d83512b5",
+    "semantic_hash": "1d73bc489fa48f1d7ab5c992d83512b5"
+  },
+  "kryonix/docs/desktop/KRYONIX_SHELL_ARCHITECTURE.md": {
+    "mtime": 1782178666.7879312,
+    "ast_hash": "2941b71d963de2d52427219367ce8ca4",
+    "semantic_hash": "2941b71d963de2d52427219367ce8ca4"
+  },
+  "kryonix/docs/desktop/KRYONIX_SHELL_ROADMAP.md": {
+    "mtime": 1782178666.7880175,
+    "ast_hash": "9b9064316014c63211e9842cc3993de6",
+    "semantic_hash": "9b9064316014c63211e9842cc3993de6"
+  },
+  "kryonix/docs/desktop/KRYONIX_WALLPAPERS.md": {
+    "mtime": 1782178666.7880986,
+    "ast_hash": "577ad3b9e11afa1d055131201416246c",
+    "semantic_hash": "577ad3b9e11afa1d055131201416246c"
+  },
+  "kryonix/docs/desktop/LOCKSCREEN_THEME.md": {
+    "mtime": 1782178666.7880986,
+    "ast_hash": "04888450455d8664686c2ff0b84eaf2d",
+    "semantic_hash": "04888450455d8664686c2ff0b84eaf2d"
+  },
+  "kryonix/docs/desktop/PLASMA_THEME_KRYONIX_DARK.md": {
+    "mtime": 1782178666.7882445,
+    "ast_hash": "3e01bf0f67cc9564d37eb2b1c572ed05",
+    "semantic_hash": "3e01bf0f67cc9564d37eb2b1c572ed05"
+  },
+  "kryonix/docs/desktop/SDDM.md": {
+    "mtime": 1782476313.681266,
+    "ast_hash": "b95a461d9514525922fa77121d4a65f8",
+    "semantic_hash": "b95a461d9514525922fa77121d4a65f8"
+  },
+  "kryonix/docs/desktop/SHORTCUTS.md": {
+    "mtime": 1782178666.7883134,
+    "ast_hash": "7f53fd7564acac648b6b593852c506fe",
+    "semantic_hash": "7f53fd7564acac648b6b593852c506fe"
+  },
+  "kryonix/docs/desktop/WALLPAPER_DYNAMIC.md": {
+    "mtime": 1782478841.4177563,
+    "ast_hash": "60eeb636bd01cc94577049ada9118a9f",
+    "semantic_hash": "60eeb636bd01cc94577049ada9118a9f"
+  },
+  "kryonix/docs/desktop/WAYWALLEN.md": {
+    "mtime": 1782478841.419135,
+    "ast_hash": "c94bda2f9aab3c18121c2823d6fee81c",
+    "semantic_hash": "c94bda2f9aab3c18121c2823d6fee81c"
+  },
+  "kryonix/docs/development/LICENSING_POLICY.md": {
+    "mtime": 1782178666.7884767,
+    "ast_hash": "d1e4cbaba5ffb137cd79eb6fd2c87b15",
+    "semantic_hash": "d1e4cbaba5ffb137cd79eb6fd2c87b15"
+  },
+  "kryonix/docs/development/SUBMODULES.md": {
+    "mtime": 1782178666.788536,
+    "ast_hash": "768eb12c84973b8b83cdcad1b0869fc6",
+    "semantic_hash": "768eb12c84973b8b83cdcad1b0869fc6"
+  },
+  "kryonix/docs/evidence/README.md": {
+    "mtime": 1782178666.7886324,
+    "ast_hash": "f815fd14f355434ea59b735c9f49f43d",
+    "semantic_hash": "f815fd14f355434ea59b735c9f49f43d"
+  },
+  "kryonix/docs/evidence/ragos-audit.md": {
+    "mtime": 1782178666.7886872,
+    "ast_hash": "4a0e8f50dedbc97c28053167ae8288a5",
+    "semantic_hash": "4a0e8f50dedbc97c28053167ae8288a5"
+  },
+  "kryonix/docs/features/REMOTE_DESKTOP.md": {
+    "mtime": 1782178666.788782,
+    "ast_hash": "743801ea4358d4ddf1a6e1731e095e7f",
+    "semantic_hash": "743801ea4358d4ddf1a6e1731e095e7f"
+  },
+  "kryonix/docs/hardware/CPU.md": {
+    "mtime": 1782401197.9780579,
+    "ast_hash": "e5a83372abdaa233a2c7071b7f560ec9",
+    "semantic_hash": "e5a83372abdaa233a2c7071b7f560ec9"
+  },
+  "kryonix/docs/hardware/GPU_AMD.md": {
+    "mtime": 1782401197.9789138,
+    "ast_hash": "52d281d9094368f8d30ecf84ebff1fd6",
+    "semantic_hash": "52d281d9094368f8d30ecf84ebff1fd6"
+  },
+  "kryonix/docs/hardware/GPU_INTEL.md": {
+    "mtime": 1782401197.9789138,
+    "ast_hash": "60eecee8818941dfb1e7212ca04a7354",
+    "semantic_hash": "60eecee8818941dfb1e7212ca04a7354"
+  },
+  "kryonix/docs/hardware/GPU_NVIDIA.md": {
+    "mtime": 1782401197.9789138,
+    "ast_hash": "4ca7b77422825840c1c5167db425e033",
+    "semantic_hash": "4ca7b77422825840c1c5167db425e033"
+  },
+  "kryonix/docs/hardware/HARDWARE_FEATURES_AUDIT.md": {
+    "mtime": 1782401197.9789138,
+    "ast_hash": "b398c9db16eb7b38b4a84f2b934bc4d4",
+    "semantic_hash": "b398c9db16eb7b38b4a84f2b934bc4d4"
+  },
+  "kryonix/docs/home-brain/AUTOMATION_POLICY.md": {
+    "mtime": 1782178666.7888715,
+    "ast_hash": "c9eed8facd881ec9bac7b1889aa3daff",
+    "semantic_hash": "c9eed8facd881ec9bac7b1889aa3daff"
+  },
+  "kryonix/docs/home-brain/DAILY_WORKFLOW.md": {
+    "mtime": 1782178666.7889354,
+    "ast_hash": "505a2bbb34c642735ec349bf1acdeb90",
+    "semantic_hash": "505a2bbb34c642735ec349bf1acdeb90"
+  },
+  "kryonix/docs/home-brain/MEMORY_BRIDGE.md": {
+    "mtime": 1782178666.7889965,
+    "ast_hash": "0b6adb4e9238c1a235ca06452f6d173b",
+    "semantic_hash": "0b6adb4e9238c1a235ca06452f6d173b"
+  },
+  "kryonix/docs/home-brain/OPERATIONS.md": {
+    "mtime": 1782178666.789059,
+    "ast_hash": "d08f7a74ff83d4e66393bb0b756225ce",
+    "semantic_hash": "d08f7a74ff83d4e66393bb0b756225ce"
+  },
+  "kryonix/docs/home-brain/PHASE_3B_TAXONOMY.md": {
+    "mtime": 1782178666.7891622,
+    "ast_hash": "122f260de2a638eacce99f52b70bf734",
+    "semantic_hash": "122f260de2a638eacce99f52b70bf734"
+  },
+  "kryonix/docs/home-brain/README.md": {
+    "mtime": 1782178666.7892256,
+    "ast_hash": "2be400a40f41b5833f3680b0019c43ff",
+    "semantic_hash": "2be400a40f41b5833f3680b0019c43ff"
+  },
+  "kryonix/docs/home-brain/SUBREPO_WORKFLOW.md": {
+    "mtime": 1782178666.789286,
+    "ast_hash": "e0a701ced94ebdc36b0fab302d809a73",
+    "semantic_hash": "e0a701ced94ebdc36b0fab302d809a73"
+  },
+  "kryonix/docs/hosts/glacier-disko-plan.md": {
+    "mtime": 1782178666.789349,
+    "ast_hash": "5887b30166e0208cf6134b274af0af62",
+    "semantic_hash": "5887b30166e0208cf6134b274af0af62"
+  },
+  "kryonix/docs/hosts/glacier-live-iso.md": {
+    "mtime": 1782178666.7894294,
+    "ast_hash": "83890b86531707a2534b41e658d3310d",
+    "semantic_hash": "83890b86531707a2534b41e658d3310d"
+  },
+  "kryonix/docs/hosts/glacier-rebuild.md": {
+    "mtime": 1782178666.7894871,
+    "ast_hash": "a3b9ec463c3895eda6d2b95383076ec5",
+    "semantic_hash": "a3b9ec463c3895eda6d2b95383076ec5"
+  },
+  "kryonix/docs/hosts/glacier-switch.md": {
+    "mtime": 1782178666.7895434,
+    "ast_hash": "1582a79b614eceac8250be0eafc34518",
+    "semantic_hash": "1582a79b614eceac8250be0eafc34518"
+  },
+  "kryonix/docs/hosts/glacier.md": {
+    "mtime": 1782178666.7896154,
+    "ast_hash": "51281962df193ec61e17ce1b14f7324d",
+    "semantic_hash": "51281962df193ec61e17ce1b14f7324d"
+  },
+  "kryonix/docs/hosts/inspiron-reinstall-plan.md": {
+    "mtime": 1782178666.789679,
+    "ast_hash": "38e3dc1f4be583e026498df8a4173f8c",
+    "semantic_hash": "38e3dc1f4be583e026498df8a4173f8c"
+  },
+  "kryonix/docs/hosts/inspiron.md": {
+    "mtime": 1782178666.789745,
+    "ast_hash": "be46bc2f9b6c5629b42071d868b41d32",
+    "semantic_hash": "be46bc2f9b6c5629b42071d868b41d32"
+  },
+  "kryonix/docs/hosts/iso.md": {
+    "mtime": 1782178666.7898052,
+    "ast_hash": "f3af5d0bc0f64f86f01782f116bc95ac",
+    "semantic_hash": "f3af5d0bc0f64f86f01782f116bc95ac"
+  },
+  "kryonix/docs/installer/ARCHITECTURE.md": {
+    "mtime": 1782178666.7898915,
+    "ast_hash": "ae1c7b5187e78b488b734442dcbd12ef",
+    "semantic_hash": "ae1c7b5187e78b488b734442dcbd12ef"
+  },
+  "kryonix/docs/installer/CURRENT_STATE.md": {
+    "mtime": 1782178666.789954,
+    "ast_hash": "d2b69bf2f2f7484a6757313ae2830c53",
+    "semantic_hash": "d2b69bf2f2f7484a6757313ae2830c53"
+  },
+  "kryonix/docs/installer/E2E.md": {
+    "mtime": 1782178666.7900114,
+    "ast_hash": "7cf3c26e863e5279343d28b879ed1c2a",
+    "semantic_hash": "7cf3c26e863e5279343d28b879ed1c2a"
+  },
+  "kryonix/docs/installer/INSTALL_PLAN.md": {
+    "mtime": 1782178666.7900758,
+    "ast_hash": "7d7e49fbc0713a8e53045bbd4c2195f6",
+    "semantic_hash": "7d7e49fbc0713a8e53045bbd4c2195f6"
+  },
+  "kryonix/docs/installer/README.md": {
+    "mtime": 1782178666.7901378,
+    "ast_hash": "a43712107cbe43ea7bc56685a036b1e1",
+    "semantic_hash": "a43712107cbe43ea7bc56685a036b1e1"
+  },
+  "kryonix/docs/installer/ROADMAP.md": {
+    "mtime": 1782178666.791004,
+    "ast_hash": "9617260165433d3fef7f34fb74966454",
+    "semantic_hash": "9617260165433d3fef7f34fb74966454"
+  },
+  "kryonix/docs/installer/VENTOY.md": {
+    "mtime": 1782178666.791004,
+    "ast_hash": "70adb79dbad7eb5a5bd3cb14b5b91d88",
+    "semantic_hash": "70adb79dbad7eb5a5bd3cb14b5b91d88"
+  },
+  "kryonix/docs/mcp/README.md": {
+    "mtime": 1782178666.791881,
+    "ast_hash": "fac9c38e7b16e796565ad69a5faeafc7",
+    "semantic_hash": "fac9c38e7b16e796565ad69a5faeafc7"
+  },
+  "kryonix/docs/mcp/client-configs.md": {
+    "mtime": 1782178666.79197,
+    "ast_hash": "b02aa6e64e7c6c0c9e672cad19921bec",
+    "semantic_hash": "b02aa6e64e7c6c0c9e672cad19921bec"
+  },
+  "kryonix/docs/mcp/security.md": {
+    "mtime": 1782178666.7920678,
+    "ast_hash": "8a02303736c725dce9d3d83dc56b6f21",
+    "semantic_hash": "8a02303736c725dce9d3d83dc56b6f21"
+  },
+  "kryonix/docs/operations/API_KEY_ROTATION.md": {
+    "mtime": 1782178666.7922025,
+    "ast_hash": "f6c6e831ca508f99fcb325d748962b89",
+    "semantic_hash": "f6c6e831ca508f99fcb325d748962b89"
+  },
+  "kryonix/docs/operations/BRAIN_ASK_SEARCH_CONTRACT.md": {
+    "mtime": 1782178666.7922626,
+    "ast_hash": "1f9e9ef77ac11d2765b9ce1a9485ab51",
+    "semantic_hash": "1f9e9ef77ac11d2765b9ce1a9485ab51"
+  },
+  "kryonix/docs/operations/BRAIN_GROUNDING_ANSWERABILITY.md": {
+    "mtime": 1782178666.7923198,
+    "ast_hash": "a8518199ef7b25682e3c669cbe0da2d6",
+    "semantic_hash": "a8518199ef7b25682e3c669cbe0da2d6"
+  },
+  "kryonix/docs/operations/BRAIN_REMOTE_API_KEY_PRODUCTION.md": {
+    "mtime": 1782178666.7923777,
+    "ast_hash": "d06d9bf9c301a90a4f50e9edb05dce59",
+    "semantic_hash": "d06d9bf9c301a90a4f50e9edb05dce59"
+  },
+  "kryonix/docs/operations/BRAIN_SAFE_DEPLOY.md": {
+    "mtime": 1782178666.792452,
+    "ast_hash": "dd7799517cfac837e5580b251b6b7fdc",
+    "semantic_hash": "dd7799517cfac837e5580b251b6b7fdc"
+  },
+  "kryonix/docs/operations/DO_NOT_DO.md": {
+    "mtime": 1782178666.7925265,
+    "ast_hash": "211ae61a54fc6a646c9413080710c170",
+    "semantic_hash": "211ae61a54fc6a646c9413080710c170"
+  },
+  "kryonix/docs/operations/FLAKE_MODULARIZATION_PLAN.md": {
+    "mtime": 1782178666.7925806,
+    "ast_hash": "6b7dc1e459eccf9ec54e9cd28b5c7fcf",
+    "semantic_hash": "6b7dc1e459eccf9ec54e9cd28b5c7fcf"
+  },
+  "kryonix/docs/operations/GIT_DEV_PROD_WORKFLOW.md": {
+    "mtime": 1782178666.7926598,
+    "ast_hash": "35bae94a839a45345144b057c850123e",
+    "semantic_hash": "35bae94a839a45345144b057c850123e"
+  },
+  "kryonix/docs/operations/GLACIER_BTRFS_INSTALL.md": {
+    "mtime": 1782178666.7927322,
+    "ast_hash": "b341aed72a10aaa12c12a2506d36c020",
+    "semantic_hash": "b341aed72a10aaa12c12a2506d36c020"
+  },
+  "kryonix/docs/operations/GLACIER_VRAM_PROFILES.md": {
+    "mtime": 1782178666.7928016,
+    "ast_hash": "6237de0847d59f78ddf91454e5adb376",
+    "semantic_hash": "6237de0847d59f78ddf91454e5adb376"
+  },
+  "kryonix/docs/operations/GRAPH_MAINTENANCE.md": {
+    "mtime": 1782178666.7928958,
+    "ast_hash": "ce48420bd02c97fa689f8392db4baa1d",
+    "semantic_hash": "ce48420bd02c97fa689f8392db4baa1d"
+  },
+  "kryonix/docs/operations/HOME_BRAIN_AUTOPILOT_PRODUCTION.md": {
+    "mtime": 1782178666.7929723,
+    "ast_hash": "67161248fdb7e3831c248df327d999e2",
+    "semantic_hash": "67161248fdb7e3831c248df327d999e2"
+  },
+  "kryonix/docs/operations/HOME_MANAGER_TROUBLESHOOTING.md": {
+    "mtime": 1782178666.793036,
+    "ast_hash": "13dc244cb867b0969bfa0dd491fe0888",
+    "semantic_hash": "13dc244cb867b0969bfa0dd491fe0888"
+  },
+  "kryonix/docs/operations/KRYONIX_CI_HARDENING.md": {
+    "mtime": 1782178666.7930992,
+    "ast_hash": "0f537af6fa97856fb054f5c43605b055",
+    "semantic_hash": "0f537af6fa97856fb054f5c43605b055"
+  },
+  "kryonix/docs/operations/KRYONIX_COMMANDS_CANONICAL.md": {
+    "mtime": 1782178666.7931654,
+    "ast_hash": "28dac4715e50a933ecd18b1129082c0d",
+    "semantic_hash": "28dac4715e50a933ecd18b1129082c0d"
+  },
+  "kryonix/docs/operations/KRYONIX_DEPLOY_REPORT_20260517-012936.md": {
+    "mtime": 1782178666.793234,
+    "ast_hash": "569a038538d511b1677274a69384750e",
+    "semantic_hash": "569a038538d511b1677274a69384750e"
+  },
+  "kryonix/docs/operations/KRYONIX_DOCS_AUDIT.md": {
+    "mtime": 1782178666.7932947,
+    "ast_hash": "04428b7a0a9c254ac8338a1b999fb2e9",
+    "semantic_hash": "04428b7a0a9c254ac8338a1b999fb2e9"
+  },
+  "kryonix/docs/operations/KRYONIX_ISSUES_GOVERNANCE.md": {
+    "mtime": 1782178666.7933545,
+    "ast_hash": "29f3d76ab2e66a1d152b1c37ab4e1034",
+    "semantic_hash": "29f3d76ab2e66a1d152b1c37ab4e1034"
+  },
+  "kryonix/docs/operations/KRYONIX_ISSUE_TRIAGE_CURRENT.md": {
+    "mtime": 1782178666.7934103,
+    "ast_hash": "95d66ae020544e5b06ea6bf371e03fb2",
+    "semantic_hash": "95d66ae020544e5b06ea6bf371e03fb2"
+  },
+  "kryonix/docs/operations/KRYONIX_LICENSE_AUDIT.md": {
+    "mtime": 1782178666.7934718,
+    "ast_hash": "84d97e954b4ea4c3d8f0103848a5aaf3",
+    "semantic_hash": "84d97e954b4ea4c3d8f0103848a5aaf3"
+  },
+  "kryonix/docs/operations/KRYONIX_NETWORK_STATUS.md": {
+    "mtime": 1782178666.7935286,
+    "ast_hash": "02b84461a322d8fd74717351ea0fef52",
+    "semantic_hash": "02b84461a322d8fd74717351ea0fef52"
+  },
+  "kryonix/docs/operations/KRYONIX_PR_CLOSURE_AUDIT.md": {
+    "mtime": 1782178666.7935855,
+    "ast_hash": "f41b002f449f5349ce1bf6fdf47d89ce",
+    "semantic_hash": "f41b002f449f5349ce1bf6fdf47d89ce"
+  },
+  "kryonix/docs/operations/KRYONIX_REFINEMENT_DEPLOYMENT.md": {
+    "mtime": 1782178666.793658,
+    "ast_hash": "ce3571c74102d7c82a62d1c8d51dbbb7",
+    "semantic_hash": "ce3571c74102d7c82a62d1c8d51dbbb7"
+  },
+  "kryonix/docs/operations/KRYONIX_REINDEX_REPORT.md": {
+    "mtime": 1782178666.793729,
+    "ast_hash": "45c5aa390e7e35498e56873a7bd036d8",
+    "semantic_hash": "45c5aa390e7e35498e56873a7bd036d8"
+  },
+  "kryonix/docs/operations/KRYONIX_REVIEW_WALKTHROUGH.md": {
+    "mtime": 1782178666.7938046,
+    "ast_hash": "b72638d93cc62b22d6e056bf9f607cd5",
+    "semantic_hash": "b72638d93cc62b22d6e056bf9f607cd5"
+  },
+  "kryonix/docs/operations/KRYONIX_RUNTIME_MATRIX.md": {
+    "mtime": 1782178666.793871,
+    "ast_hash": "9fdbdc9262be4df20b4dc99e3b3beec0",
+    "semantic_hash": "9fdbdc9262be4df20b4dc99e3b3beec0"
+  },
+  "kryonix/docs/operations/KRYONIX_UPDATE_POLICY.md": {
+    "mtime": 1782178666.7939408,
+    "ast_hash": "f16b2bfa8e4522af6b12e0c07bcb7f64",
+    "semantic_hash": "f16b2bfa8e4522af6b12e0c07bcb7f64"
+  },
+  "kryonix/docs/operations/KRYONIX_VALIDATION.md": {
+    "mtime": 1782178666.7940176,
+    "ast_hash": "7a8935a92e9f5043e10d2be703cdb4e4",
+    "semantic_hash": "7a8935a92e9f5043e10d2be703cdb4e4"
+  },
+  "kryonix/docs/operations/LLAMA_CPP_CUDA_BENCHMARK_RTX4060.md": {
+    "mtime": 1782178666.7940881,
+    "ast_hash": "c3bd277075759a448862e7e187aa6b08",
+    "semantic_hash": "c3bd277075759a448862e7e187aa6b08"
+  },
+  "kryonix/docs/operations/RELEASE_ISO.md": {
+    "mtime": 1782178666.7943583,
+    "ast_hash": "b1507592bd596592d57804962ea25da5",
+    "semantic_hash": "b1507592bd596592d57804962ea25da5"
+  },
+  "kryonix/docs/operations/REMOTE_DESKTOP_WAYVNC.md": {
+    "mtime": 1782178666.7944243,
+    "ast_hash": "aeb7dc5a8e63bcc6c734ada47594d71f",
+    "semantic_hash": "aeb7dc5a8e63bcc6c734ada47594d71f"
+  },
+  "kryonix/docs/operations/ROLLBACK_TAGS.md": {
+    "mtime": 1782178666.7944937,
+    "ast_hash": "c9bb017b596895ecb3bb502eb59f767a",
+    "semantic_hash": "c9bb017b596895ecb3bb502eb59f767a"
+  },
+  "kryonix/docs/operations/STRUCTURAL_AUDIT.md": {
+    "mtime": 1782178666.7945733,
+    "ast_hash": "20fa71245a09f1b64e2abd73ca53c47b",
+    "semantic_hash": "20fa71245a09f1b64e2abd73ca53c47b"
+  },
+  "kryonix/docs/operations/agente.md": {
+    "mtime": 1782178666.7946491,
+    "ast_hash": "acd0f4d34754216564af9b8ce89a96ee",
+    "semantic_hash": "acd0f4d34754216564af9b8ce89a96ee"
+  },
+  "kryonix/docs/operations/audit_report_brain_infra.md": {
+    "mtime": 1782178666.7947214,
+    "ast_hash": "d1d03c6965168a919fd62495aa9ca547",
+    "semantic_hash": "d1d03c6965168a919fd62495aa9ca547"
+  },
+  "kryonix/modules/nixos/branding/kryonix/grub-theme/theme.txt": {
+    "mtime": 1782178666.8064466,
+    "ast_hash": "df860d961305834f88c584f964228a5e",
+    "semantic_hash": "df860d961305834f88c584f964228a5e"
+  },
+  "kryonix/packages/kryonix-optimizer/README.md": {
+    "mtime": 1782178666.813256,
+    "ast_hash": "49985e0ac280175ef4291085a77dd992",
+    "semantic_hash": "49985e0ac280175ef4291085a77dd992"
+  },
+  "kryonix/skills/git-dev-prod/SKILL.md": {
+    "mtime": 1782178666.8162048,
+    "ast_hash": "5da1a6362f0701643a9bf1cc5a24af12",
+    "semantic_hash": "5da1a6362f0701643a9bf1cc5a24af12"
+  },
+  "kryonix/skills/yt-to-notebook/SKILL.md": {
+    "mtime": 1782178666.816301,
+    "ast_hash": "fbb3c22046fd384b17debb8bfc9e257b",
+    "semantic_hash": "fbb3c22046fd384b17debb8bfc9e257b"
+  },
+  "kryonix/skills/yt-to-notebook/references/exemplo-gold.md": {
+    "mtime": 1782178666.816453,
+    "ast_hash": "204a896b503f7042442ea6c3393be437",
+    "semantic_hash": "204a896b503f7042442ea6c3393be437"
+  },
+  "kryonix/skills/yt-to-notebook/references/formato-visual.md": {
+    "mtime": 1782178666.8165598,
+    "ast_hash": "5849c84b10a2759b4880d6ad390e8922",
+    "semantic_hash": "5849c84b10a2759b4880d6ad390e8922"
+  },
+  "kryonix/specs/00-auditoria.md": {
+    "mtime": 1782178666.816731,
+    "ast_hash": "88fe90a3475fa752edf67d6acc69b79f",
+    "semantic_hash": "88fe90a3475fa752edf67d6acc69b79f"
+  },
+  "kryonix/specs/01-flake.md": {
+    "mtime": 1782178666.8167853,
+    "ast_hash": "730c25597a2f9392456dad1061f58b40",
+    "semantic_hash": "730c25597a2f9392456dad1061f58b40"
+  },
+  "kryonix/specs/02-packages.md": {
+    "mtime": 1782178666.816849,
+    "ast_hash": "bfba6f95868d51c10e4e6c6d3b4d8a6c",
+    "semantic_hash": "bfba6f95868d51c10e4e6c6d3b4d8a6c"
+  },
+  "kryonix/specs/03-cachix.md": {
+    "mtime": 1782178666.8169386,
+    "ast_hash": "a4694bd1b0da648d4067fc31f2874d58",
+    "semantic_hash": "a4694bd1b0da648d4067fc31f2874d58"
+  },
+  "kryonix/specs/04-desktop.md": {
+    "mtime": 1782178666.8169951,
+    "ast_hash": "74cef929570d0baf7ca1c642583bebad",
+    "semantic_hash": "74cef929570d0baf7ca1c642583bebad"
+  },
+  "kryonix/specs/06-caelestia-hybrid.md": {
+    "mtime": 1782178666.8170478,
+    "ast_hash": "0d965765bfae526e6d0137513bcd1aa1",
+    "semantic_hash": "0d965765bfae526e6d0137513bcd1aa1"
+  },
+  "kryonix/specs/07-kryonix-shell.md": {
+    "mtime": 1782178666.8171263,
+    "ast_hash": "3b2be9dc6211e8a4f438f7e4d60133af",
+    "semantic_hash": "3b2be9dc6211e8a4f438f7e4d60133af"
+  },
+  "kryonix/specs/08-kryonix-aurora-shell.md": {
+    "mtime": 1782178666.8172126,
+    "ast_hash": "b5011222262e210abdad371fdfd25763",
+    "semantic_hash": "b5011222262e210abdad371fdfd25763"
+  },
+  "kryonix/windows/README.md": {
+    "mtime": 1782178666.817655,
+    "ast_hash": "fcb3e18b62a71f96a5de25549c178a25",
+    "semantic_hash": "fcb3e18b62a71f96a5de25549c178a25"
+  },
+  "kryonix/windows/glazewm/config.yaml": {
+    "mtime": 1782178666.8177423,
+    "ast_hash": "be3ac6f31481b30d04556258a5133e99",
+    "semantic_hash": "be3ac6f31481b30d04556258a5133e99"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/bg.png": {
+    "mtime": 1782178673.637713,
+    "ast_hash": "3538916b178098c0c70e98e9b163a592",
+    "semantic_hash": "3538916b178098c0c70e98e9b163a592"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/pin.png": {
+    "mtime": 1782178673.637812,
+    "ast_hash": "7537251a8f6a228f99b2f60c41283f8a",
+    "semantic_hash": "7537251a8f6a228f99b2f60c41283f8a"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-1.0.png": {
+    "mtime": 1782178673.6379848,
+    "ast_hash": "82936c1c6ac5f2cb2723199b47e27746",
+    "semantic_hash": "82936c1c6ac5f2cb2723199b47e27746"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-10.0.png": {
+    "mtime": 1782178673.6382344,
+    "ast_hash": "258f49ecd814e553b85f82fa26cd203a",
+    "semantic_hash": "258f49ecd814e553b85f82fa26cd203a"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-11.0.png": {
+    "mtime": 1782178673.6383243,
+    "ast_hash": "711d490d589eac6c0d06920c39fb893b",
+    "semantic_hash": "711d490d589eac6c0d06920c39fb893b"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-2.0.png": {
+    "mtime": 1782178673.6383998,
+    "ast_hash": "bfa04f7244acc8b53fdc64e6ceba228e",
+    "semantic_hash": "bfa04f7244acc8b53fdc64e6ceba228e"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-3.0.png": {
+    "mtime": 1782178673.638493,
+    "ast_hash": "aae4e4e6d6b7fba0610805daedd074da",
+    "semantic_hash": "aae4e4e6d6b7fba0610805daedd074da"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-3.5.png": {
+    "mtime": 1782178673.6385484,
+    "ast_hash": "cbc008c1b742101da4e0e10a2f5b1583",
+    "semantic_hash": "cbc008c1b742101da4e0e10a2f5b1583"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-4.0.png": {
+    "mtime": 1782178673.6386588,
+    "ast_hash": "a4e03f250096b1864bc7bcd463ff845d",
+    "semantic_hash": "a4e03f250096b1864bc7bcd463ff845d"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-4.5.png": {
+    "mtime": 1782178673.638722,
+    "ast_hash": "b5ee25761b9d03e6faeca53f61571d63",
+    "semantic_hash": "b5ee25761b9d03e6faeca53f61571d63"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-5.0.png": {
+    "mtime": 1782178673.6388435,
+    "ast_hash": "3a43377fdf27fbe8d1e498d5cdb67e5f",
+    "semantic_hash": "3a43377fdf27fbe8d1e498d5cdb67e5f"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-5.5.png": {
+    "mtime": 1782178673.6389968,
+    "ast_hash": "35cd46779f1834bf8202013b2bf2c20f",
+    "semantic_hash": "35cd46779f1834bf8202013b2bf2c20f"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-6.0.png": {
+    "mtime": 1782178673.6390967,
+    "ast_hash": "20465f5cd15ed92eedd22763625b1f36",
+    "semantic_hash": "20465f5cd15ed92eedd22763625b1f36"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-7.0.png": {
+    "mtime": 1782178673.639243,
+    "ast_hash": "8c8f2ccbddbd625ddb2a7a8a84bd620a",
+    "semantic_hash": "8c8f2ccbddbd625ddb2a7a8a84bd620a"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-8.0.png": {
+    "mtime": 1782178673.639326,
+    "ast_hash": "6bbfb74d9e39104ff588d2a9e79a5ab9",
+    "semantic_hash": "6bbfb74d9e39104ff588d2a9e79a5ab9"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-9.0.png": {
+    "mtime": 1782178673.6394072,
+    "ast_hash": "48bcb15c55f9260b2a320e2f4ce4220b",
+    "semantic_hash": "48bcb15c55f9260b2a320e2f4ce4220b"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_-9.5.png": {
+    "mtime": 1782178673.6394072,
+    "ast_hash": "35cd46779f1834bf8202013b2bf2c20f",
+    "semantic_hash": "35cd46779f1834bf8202013b2bf2c20f"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_0.0.png": {
+    "mtime": 1782178673.6394799,
+    "ast_hash": "86ebce2b227dca66d866750d214544b1",
+    "semantic_hash": "86ebce2b227dca66d866750d214544b1"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_1.0.png": {
+    "mtime": 1782178673.63958,
+    "ast_hash": "e05480c9b1a646521492478d52d3ce2d",
+    "semantic_hash": "e05480c9b1a646521492478d52d3ce2d"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_10.0.png": {
+    "mtime": 1782178673.6398036,
+    "ast_hash": "4453ecd5896d0a86e42343f9ff94c06c",
+    "semantic_hash": "4453ecd5896d0a86e42343f9ff94c06c"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_10.5.png": {
+    "mtime": 1782178673.6398036,
+    "ast_hash": "248f7576fca1a789f22cf604a1261fa2",
+    "semantic_hash": "248f7576fca1a789f22cf604a1261fa2"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_11.0.png": {
+    "mtime": 1782178673.6398857,
+    "ast_hash": "fdeb9e47a6a928b5079a55f8b24feee9",
+    "semantic_hash": "fdeb9e47a6a928b5079a55f8b24feee9"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_12.0.png": {
+    "mtime": 1782178673.639982,
+    "ast_hash": "57ead168279e0ed117cf9e7529605584",
+    "semantic_hash": "57ead168279e0ed117cf9e7529605584"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_12.75.png": {
+    "mtime": 1782178673.6400573,
+    "ast_hash": "26d0fa86d7ae50a1c1b923b4b145050a",
+    "semantic_hash": "26d0fa86d7ae50a1c1b923b4b145050a"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_13.0.png": {
+    "mtime": 1782178673.6400573,
+    "ast_hash": "d9babcf76be45707166d90fad5d913fa",
+    "semantic_hash": "d9babcf76be45707166d90fad5d913fa"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_2.0.png": {
+    "mtime": 1782178673.6401439,
+    "ast_hash": "d52726e542fd4e3b6782761a9a15f3f9",
+    "semantic_hash": "d52726e542fd4e3b6782761a9a15f3f9"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_3.0.png": {
+    "mtime": 1782178673.6402721,
+    "ast_hash": "2f0f331a9f0ccc768deb7471906cbe2f",
+    "semantic_hash": "2f0f331a9f0ccc768deb7471906cbe2f"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_3.5.png": {
+    "mtime": 1782178673.6404083,
+    "ast_hash": "1d2ffe653d87375d768f0509b8e39c70",
+    "semantic_hash": "1d2ffe653d87375d768f0509b8e39c70"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_4.0.png": {
+    "mtime": 1782178673.6404674,
+    "ast_hash": "6a0b7a38d1822fc6959efbaa536bbf53",
+    "semantic_hash": "6a0b7a38d1822fc6959efbaa536bbf53"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_4.5.png": {
+    "mtime": 1782178673.640539,
+    "ast_hash": "f67ba05f650838147a7e1816b78eca4d",
+    "semantic_hash": "f67ba05f650838147a7e1816b78eca4d"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_5.0.png": {
+    "mtime": 1782178673.6406088,
+    "ast_hash": "3e0e51d6db3586490950a183fa3574ac",
+    "semantic_hash": "3e0e51d6db3586490950a183fa3574ac"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_5.5.png": {
+    "mtime": 1782178673.640749,
+    "ast_hash": "d8e4585eac140b6ab617510ff6c4054a",
+    "semantic_hash": "d8e4585eac140b6ab617510ff6c4054a"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_5.75.png": {
+    "mtime": 1782178673.640749,
+    "ast_hash": "58593d7f718dbc44132a9c1840df9135",
+    "semantic_hash": "58593d7f718dbc44132a9c1840df9135"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_6.0.png": {
+    "mtime": 1782178673.64083,
+    "ast_hash": "2ce17b99d0526cf2a17a318058e776c9",
+    "semantic_hash": "2ce17b99d0526cf2a17a318058e776c9"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_6.5.png": {
+    "mtime": 1782178673.6409109,
+    "ast_hash": "b4bb6ccc922648d924317dc7fd0282bb",
+    "semantic_hash": "b4bb6ccc922648d924317dc7fd0282bb"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_7.0.png": {
+    "mtime": 1782178673.6409743,
+    "ast_hash": "bf8174bbb5b95c430285b92979718c28",
+    "semantic_hash": "bf8174bbb5b95c430285b92979718c28"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_8.0.png": {
+    "mtime": 1782178673.641077,
+    "ast_hash": "aba3553b8bb90b7bd474c8ee52e49eee",
+    "semantic_hash": "aba3553b8bb90b7bd474c8ee52e49eee"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_9.0.png": {
+    "mtime": 1782178673.6411922,
+    "ast_hash": "babacd2e75089ba9036da8f0930158c3",
+    "semantic_hash": "babacd2e75089ba9036da8f0930158c3"
+  },
+  "kryonix-installer/ui/imgs/calamares-timezones/timezone_9.5.png": {
+    "mtime": 1782178673.641302,
+    "ast_hash": "4beb64ea26e30ca3d3f7a063c098fe1c",
+    "semantic_hash": "4beb64ea26e30ca3d3f7a063c098fe1c"
+  },
+  "kryonix-installer/ui/imgs/logoterminal.png": {
+    "mtime": 1782178673.6434677,
+    "ast_hash": "97694adfc639a959052a8a2872780ebc",
+    "semantic_hash": "97694adfc639a959052a8a2872780ebc"
+  },
+  "kryonix-installer/ui/imgs/mapa.svg": {
+    "mtime": 1782178673.6491513,
+    "ast_hash": "b8f91e021fe9e9656dba0f2229cb06ef",
+    "semantic_hash": "b8f91e021fe9e9656dba0f2229cb06ef"
+  },
+  "kryonix-installer/ui/imgs/ragton.jpeg": {
+    "mtime": 1782178673.6492724,
+    "ast_hash": "fcb2c225c32f6d0813b525da8d273312",
+    "semantic_hash": "fcb2c225c32f6d0813b525da8d273312"
+  },
+  "kryonix-installer/ui/imgs/ragton.png": {
+    "mtime": 1782178673.6496007,
+    "ast_hash": "718ef9f0209e5d75f0c517d1d13e33d7",
+    "semantic_hash": "718ef9f0209e5d75f0c517d1d13e33d7"
+  },
+  "kryonix-installer/ui/imgs/wallpaper.png": {
+    "mtime": 1782178673.6520436,
+    "ast_hash": "e366678bd92e7eab768934886308fff7",
+    "semantic_hash": "e366678bd92e7eab768934886308fff7"
+  },
+  "kryonix-installer/ui/public/favicon.png": {
+    "mtime": 1782608352.773767,
+    "ast_hash": "73c32715acb854083cde648250cb7f34",
+    "semantic_hash": "73c32715acb854083cde648250cb7f34"
+  },
+  "kryonix-installer/ui/src/assets/logo.png": {
+    "mtime": 1782603956.1061034,
+    "ast_hash": "bd2ea05cabd689350603ed81da1ec7b7",
+    "semantic_hash": "bd2ea05cabd689350603ed81da1ec7b7"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/bg.png": {
+    "mtime": 1782178673.6580026,
+    "ast_hash": "3538916b178098c0c70e98e9b163a592",
+    "semantic_hash": "3538916b178098c0c70e98e9b163a592"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/pin.png": {
+    "mtime": 1782178673.6583145,
+    "ast_hash": "7537251a8f6a228f99b2f60c41283f8a",
+    "semantic_hash": "7537251a8f6a228f99b2f60c41283f8a"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-10.0.png": {
+    "mtime": 1782178673.6584675,
+    "ast_hash": "258f49ecd814e553b85f82fa26cd203a",
+    "semantic_hash": "258f49ecd814e553b85f82fa26cd203a"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-11.0.png": {
+    "mtime": 1782178673.658536,
+    "ast_hash": "711d490d589eac6c0d06920c39fb893b",
+    "semantic_hash": "711d490d589eac6c0d06920c39fb893b"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-2.0.png": {
+    "mtime": 1782178673.6586318,
+    "ast_hash": "bfa04f7244acc8b53fdc64e6ceba228e",
+    "semantic_hash": "bfa04f7244acc8b53fdc64e6ceba228e"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-3.0.png": {
+    "mtime": 1782178673.6586318,
+    "ast_hash": "aae4e4e6d6b7fba0610805daedd074da",
+    "semantic_hash": "aae4e4e6d6b7fba0610805daedd074da"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-3.5.png": {
+    "mtime": 1782178673.6587749,
+    "ast_hash": "cbc008c1b742101da4e0e10a2f5b1583",
+    "semantic_hash": "cbc008c1b742101da4e0e10a2f5b1583"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-4.0.png": {
+    "mtime": 1782178673.6587749,
+    "ast_hash": "a4e03f250096b1864bc7bcd463ff845d",
+    "semantic_hash": "a4e03f250096b1864bc7bcd463ff845d"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-4.5.png": {
+    "mtime": 1782178673.6589124,
+    "ast_hash": "b5ee25761b9d03e6faeca53f61571d63",
+    "semantic_hash": "b5ee25761b9d03e6faeca53f61571d63"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-5.0.png": {
+    "mtime": 1782178673.6589534,
+    "ast_hash": "3a43377fdf27fbe8d1e498d5cdb67e5f",
+    "semantic_hash": "3a43377fdf27fbe8d1e498d5cdb67e5f"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-5.5.png": {
+    "mtime": 1782178673.659078,
+    "ast_hash": "35cd46779f1834bf8202013b2bf2c20f",
+    "semantic_hash": "35cd46779f1834bf8202013b2bf2c20f"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-6.0.png": {
+    "mtime": 1782178673.6591055,
+    "ast_hash": "20465f5cd15ed92eedd22763625b1f36",
+    "semantic_hash": "20465f5cd15ed92eedd22763625b1f36"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-7.0.png": {
+    "mtime": 1782178673.6592152,
+    "ast_hash": "8c8f2ccbddbd625ddb2a7a8a84bd620a",
+    "semantic_hash": "8c8f2ccbddbd625ddb2a7a8a84bd620a"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-8.0.png": {
+    "mtime": 1782178673.6592996,
+    "ast_hash": "6bbfb74d9e39104ff588d2a9e79a5ab9",
+    "semantic_hash": "6bbfb74d9e39104ff588d2a9e79a5ab9"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-9.0.png": {
+    "mtime": 1782178673.659361,
+    "ast_hash": "48bcb15c55f9260b2a320e2f4ce4220b",
+    "semantic_hash": "48bcb15c55f9260b2a320e2f4ce4220b"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_-9.5.png": {
+    "mtime": 1782178673.6594257,
+    "ast_hash": "35cd46779f1834bf8202013b2bf2c20f",
+    "semantic_hash": "35cd46779f1834bf8202013b2bf2c20f"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_0.0.png": {
+    "mtime": 1782178673.6594257,
+    "ast_hash": "86ebce2b227dca66d866750d214544b1",
+    "semantic_hash": "86ebce2b227dca66d866750d214544b1"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_1.0.png": {
+    "mtime": 1782178673.6595397,
+    "ast_hash": "e05480c9b1a646521492478d52d3ce2d",
+    "semantic_hash": "e05480c9b1a646521492478d52d3ce2d"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_10.0.png": {
+    "mtime": 1782178673.659673,
+    "ast_hash": "4453ecd5896d0a86e42343f9ff94c06c",
+    "semantic_hash": "4453ecd5896d0a86e42343f9ff94c06c"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_10.5.png": {
+    "mtime": 1782178673.6597717,
+    "ast_hash": "248f7576fca1a789f22cf604a1261fa2",
+    "semantic_hash": "248f7576fca1a789f22cf604a1261fa2"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_11.0.png": {
+    "mtime": 1782178673.6597717,
+    "ast_hash": "fdeb9e47a6a928b5079a55f8b24feee9",
+    "semantic_hash": "fdeb9e47a6a928b5079a55f8b24feee9"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_12.0.png": {
+    "mtime": 1782178673.6598837,
+    "ast_hash": "57ead168279e0ed117cf9e7529605584",
+    "semantic_hash": "57ead168279e0ed117cf9e7529605584"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_12.75.png": {
+    "mtime": 1782178673.6599448,
+    "ast_hash": "26d0fa86d7ae50a1c1b923b4b145050a",
+    "semantic_hash": "26d0fa86d7ae50a1c1b923b4b145050a"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_13.0.png": {
+    "mtime": 1782178673.6599448,
+    "ast_hash": "d9babcf76be45707166d90fad5d913fa",
+    "semantic_hash": "d9babcf76be45707166d90fad5d913fa"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_2.0.png": {
+    "mtime": 1782178673.6599448,
+    "ast_hash": "d52726e542fd4e3b6782761a9a15f3f9",
+    "semantic_hash": "d52726e542fd4e3b6782761a9a15f3f9"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_3.0.png": {
+    "mtime": 1782178673.6601048,
+    "ast_hash": "2f0f331a9f0ccc768deb7471906cbe2f",
+    "semantic_hash": "2f0f331a9f0ccc768deb7471906cbe2f"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_3.5.png": {
+    "mtime": 1782178673.6602337,
+    "ast_hash": "1d2ffe653d87375d768f0509b8e39c70",
+    "semantic_hash": "1d2ffe653d87375d768f0509b8e39c70"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_4.0.png": {
+    "mtime": 1782178673.6602764,
+    "ast_hash": "6a0b7a38d1822fc6959efbaa536bbf53",
+    "semantic_hash": "6a0b7a38d1822fc6959efbaa536bbf53"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_4.5.png": {
+    "mtime": 1782178673.660324,
+    "ast_hash": "f67ba05f650838147a7e1816b78eca4d",
+    "semantic_hash": "f67ba05f650838147a7e1816b78eca4d"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_5.0.png": {
+    "mtime": 1782178673.660362,
+    "ast_hash": "3e0e51d6db3586490950a183fa3574ac",
+    "semantic_hash": "3e0e51d6db3586490950a183fa3574ac"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_5.5.png": {
+    "mtime": 1782178673.660447,
+    "ast_hash": "d8e4585eac140b6ab617510ff6c4054a",
+    "semantic_hash": "d8e4585eac140b6ab617510ff6c4054a"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_5.75.png": {
+    "mtime": 1782178673.6604953,
+    "ast_hash": "58593d7f718dbc44132a9c1840df9135",
+    "semantic_hash": "58593d7f718dbc44132a9c1840df9135"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_6.0.png": {
+    "mtime": 1782178673.6605253,
+    "ast_hash": "2ce17b99d0526cf2a17a318058e776c9",
+    "semantic_hash": "2ce17b99d0526cf2a17a318058e776c9"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_6.5.png": {
+    "mtime": 1782178673.660591,
+    "ast_hash": "b4bb6ccc922648d924317dc7fd0282bb",
+    "semantic_hash": "b4bb6ccc922648d924317dc7fd0282bb"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_7.0.png": {
+    "mtime": 1782178673.6606338,
+    "ast_hash": "bf8174bbb5b95c430285b92979718c28",
+    "semantic_hash": "bf8174bbb5b95c430285b92979718c28"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_8.0.png": {
+    "mtime": 1782178673.660718,
+    "ast_hash": "aba3553b8bb90b7bd474c8ee52e49eee",
+    "semantic_hash": "aba3553b8bb90b7bd474c8ee52e49eee"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_9.0.png": {
+    "mtime": 1782178673.6608121,
+    "ast_hash": "babacd2e75089ba9036da8f0930158c3",
+    "semantic_hash": "babacd2e75089ba9036da8f0930158c3"
+  },
+  "kryonix-installer/ui/static/imgs/calamares-timezones/timezone_9.5.png": {
+    "mtime": 1782178673.6608996,
+    "ast_hash": "4beb64ea26e30ca3d3f7a063c098fe1c",
+    "semantic_hash": "4beb64ea26e30ca3d3f7a063c098fe1c"
+  },
+  "kryonix-installer/ui/static/imgs/logoterminal.png": {
+    "mtime": 1782178673.662954,
+    "ast_hash": "97694adfc639a959052a8a2872780ebc",
+    "semantic_hash": "97694adfc639a959052a8a2872780ebc"
+  },
+  "kryonix-installer/ui/static/imgs/ragton.png": {
+    "mtime": 1782178673.6632764,
+    "ast_hash": "718ef9f0209e5d75f0c517d1d13e33d7",
+    "semantic_hash": "718ef9f0209e5d75f0c517d1d13e33d7"
+  }
+}
