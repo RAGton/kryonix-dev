@@ -233,6 +233,7 @@ Nenhuma entrega relevante deve terminar sem:
 - validações executadas;
 - pendências explícitas;
 - registro no Vault quando houver decisão, migração, arquitetura ou mudança multi-repo.
+- Ao finalizar uma feature crítica que altere a UI ou o particionamento, o agente deve executar o `scripts/capture_evidence.sh` e anexar a prova visual e técnica ao log do Vault antes de declarar a tarefa como concluída.
 
 Se a tarefa não tiver registro no Vault, ela não está totalmente concluída.
 
