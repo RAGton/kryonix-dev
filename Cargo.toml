@@ -1,5 +1,8 @@
 [workspace]
 members = [
     "repos/kryonix/packages/kryx",
-    "repos/kryonix-installer"
+    "repos/kryxd"
+]
+exclude = [
+    "repos/kryxd/crates/kryx"
 ]

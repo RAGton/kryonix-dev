@@ -4,9 +4,9 @@
 [submodule "repos/kryonixos"]
 	path = repos/kryonixos
 	url = https://github.com/RAGton/Kryonixos.git
-[submodule "repos/kryonix-installer"]
-	path = repos/kryonix-installer
-	url = https://github.com/RAGton/kryonix-installer.git
+[submodule "repos/kryxd"]
+	path = repos/kryxd
+	url = https://github.com/RAGton/kryxd.git
 [submodule "repos/kryonix-home"]
 	path = repos/kryonix-home
 	url = https://github.com/RAGton/KRYONIX-HOME.git
