@@ -22,3 +22,6 @@
 [submodule "repos/kryonix-brain-lightrag"]
 	path = repos/kryonix-brain-lightrag
 	url = https://github.com/RAGEnterprise/kryonix-brain-lightrag.git
+[submodule "repos/kryx-cli"]
+	path = repos/kryx-cli
+	url = https://github.com/RAGton/kryx-cli.git
