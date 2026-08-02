@@ -17,16 +17,15 @@ kryonix-dev/
 ├── docs/                  ← documentação do workspace
 ├── scripts/               ← bootstrap, status-all, pull-all, validate-all
 └── repos/                 ← submodules oficiais da distro
-    ├── kryonix/           ← core/motor limpo (módulos, lib, overlays, CLI)
-    ├── kryonixos/         ← hosts reais (inspiron, glacier, usuários)
-    ├── kryonix-installer/ ← ISO, instalador, TUI, web-kiosk
-    ├── kryonix-brain-lightrag/ ← RAG engine, LightRAG, FastAPI
-    ├── kryonix-home/      ← organizador de home directory (Rust)
-    ├── kryonix-aura/      ← agente Aura e automação
-    ├── kryonix-assets/    ← wallpapers, temas SDDM, branding
-    ├── kryonix-vault/     ← Obsidian Vault (documentação, ADRs, logs)
-    ├── ragos/             ← plataforma diskless NixOS (servidor, cliente, ragc)
-    └── ragos-installer/   ← instalador oficial do ecossistema RAGOS
+    ├── kryonix/                 ← core/motor limpo (módulos, lib, overlays, CLI)
+    ├── kryonixos/               ← hosts reais (inspiron, glacier, usuários)
+    ├── kryxd/                   ← KCP daemon (Axum/Rust) + Installer backend + UI React/Vite + kryx CLI local
+    ├── kryx-cli/                ← CLI `kryx` publicado (operador de produção do ecossistema)
+    ├── kryonix-brain-lightrag/  ← RAG engine, LightRAG, FastAPI
+    ├── kryonix-home/            ← organizador de home directory (Rust)
+    ├── kryonix-aura/            ← agente Aura e automação
+    ├── kryonix-assets/          ← wallpapers, temas SDDM, branding
+    └── kryonix-vault/           ← Obsidian Vault (documentação, ADRs, logs)
 ```
 
 ---
@@ -37,14 +36,13 @@ kryonix-dev/
 |---|---|---|
 | `repos/kryonix` | Core/motor da distro | Módulos NixOS/HM, lib, overlays, features opt-in, CLI base |
 | `repos/kryonixos` | Downstream real | Hosts (inspiron, glacier), usuários (rocha, nina), hardware |
-| `repos/kryonix-installer` | Instalador | ISO build, backend Axum (Rust), UI React/Vite, TUI |
+| `repos/kryxd` | KCP + Installer | Daemon KCP (Axum/Rust, kryxd), backend do installer (`crates/kryx`), UI React/Vite (`ui/`), CLI `kryx` local |
+| `repos/kryx-cli` | CLI publicado | Binário `kryx` distribuído para operadores do ecossistema (switch, update, status, secrets) |
 | `repos/kryonix-brain-lightrag` | IA/Brain | LightRAG, FastAPI, CLI `rag`, autopilot |
 | `repos/kryonix-home` | Home organizer | Rust CLI para organizar diretório home |
 | `repos/kryonix-aura` | Agente Aura | Scripts de automação e agente |
 | `repos/kryonix-assets` | Branding | Wallpapers, temas SDDM, avatars |
 | `repos/kryonix-vault` | Memória | Notas Obsidian, MOCs, ADRs, logs, documentação |
-| `repos/ragos` | Plataforma RAGOS | Servidor e clientes diskless NixOS, inventário, PXE e `ragc` |
-| `repos/ragos-installer` | Instalador RAGOS | ISO, backend, UI e pipeline de instalação do servidor RAGOS |
 
 ---
 
@@ -52,7 +50,7 @@ kryonix-dev/
 
 ### 1. Workspace oficial
 
-Sempre trabalhar dentro de `/home/rocha/kryonix/kryonix-dev`.
+Sempre trabalhar dentro de `/home/rocha/Proyectos/kryonix-dev`.
 
 **Nunca desenvolver diretamente em `/etc/kryonix` ou `/etc/kryonixos`** — esses são produção/deploy.
 
@@ -94,12 +92,23 @@ cd repos/kryonix
 nix flake check --keep-going
 ```
 
-Para o installer:
+Para o installer (KCP + UI):
+```bash
+cd repos/kryxd
+nix flake check --keep-going   # se houver flake Nix no repo
+cargo fmt --check              # kryxd daemon + crates/kryx
+cargo clippy -- -D warnings    # crates/kryx (InstallPlanV2, partição)
+(cd ui && npm test)            # UI React/Vite (node --test 126 testes)
+(cd ui && npm run check:generated)   # schema JSON gerado consistente
+```
+
+Para o CLI publicado:
 
 ```bash
-cd repos/kryonix-installer
+cd repos/kryx-cli
 cargo fmt --check
 cargo clippy -- -D warnings
+cargo test --release
 ```
 
 ---
@@ -303,7 +312,8 @@ O agente deve produzir entregas auditáveis, não apenas mudanças que "parecem 
 - Repositórios no GitHub: https://github.com/RAGton/kryonix-dev
 - Core: `repos/kryonix`
 - Downstream: `repos/kryonixos`
-- Installer: `repos/kryonix-installer`
+- Installer + KCP: `repos/kryxd`
+- CLI publicado: `repos/kryx-cli`
 - Vault (Obsidian): `repos/kryonix-vault`
 ---
 
