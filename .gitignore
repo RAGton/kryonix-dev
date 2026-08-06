@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Editor/OS noise
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime
+*.log
+
+# NixOS (kryonix dev workspace specific — not committing Nix store or build artifacts)
+result/
+result-*
