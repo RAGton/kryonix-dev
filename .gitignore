@@ -19,3 +19,6 @@ __pycache__/
 # NixOS (kryonix dev workspace specific — not committing Nix store or build artifacts)
 result/
 result-*
+
+# Hermes internal workspace state (plans, runtime config) — never commit
+.hermes/
