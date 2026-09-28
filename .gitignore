@@ -22,3 +22,7 @@ result-*
 
 # Hermes internal workspace state (plans, runtime config) — never commit
 .hermes/
+
+# Ignored untracked workspaces
+repos/libvirt-mcp/
+repos/mcp-cli/
